@@ -1,0 +1,1001 @@
+CustomerID,Tenure,Contract,MonthlyCharges,TotalCharges,InternetService,OnlineSecurity,TechSupport,StreamingTV,StreamingMovies,PaymentMethod,SeniorCitizen,PaperlessBilling,Churn
+6,50,One year,35.65,4091.54,DSL,Yes,No,Yes,No,Mailed check,false,true,false
+10,32,Two year,30.45,5257.94,Fiber optic,Yes,No,Yes,Yes,Bank transfer,false,false,true
+3,11,Month-to-month,97.55,1749.5,Fiber optic,No,Yes,No,Yes,Bank transfer,true,false,false
+10,17,Month-to-month,49.43,1287.6,DSL,No,No,No,Yes,Mailed check,true,true,true
+10,70,Two year,35.6,7725.76,None,No,No,No,Yes,Mailed check,false,false,false
+8,43,Two year,88.84,5239.9,DSL,Yes,No,Yes,Yes,Mailed check,false,true,false
+8,22,Two year,63.46,6664.52,None,No,No,No,Yes,Credit card,false,false,false
+2,56,Two year,95.44,495.76,Fiber optic,No,No,No,Yes,Bank transfer,false,false,true
+8,46,One year,43.68,3193.35,None,No,No,Yes,No,Credit card,true,true,true
+3,25,Month-to-month,89.14,4611.0,None,No,Yes,Yes,Yes,Electronic check,false,true,true
+5,17,One year,33.47,916.16,DSL,No,Yes,Yes,Yes,Electronic check,true,true,false
+1,17,Month-to-month,56.02,8571.77,Fiber optic,Yes,No,Yes,No,Electronic check,true,false,false
+8,15,Month-to-month,57.7,1600.94,Fiber optic,Yes,No,Yes,Yes,Credit card,true,false,false
+5,51,One year,58.22,2755.37,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,false,false,false
+6,38,Two year,88.93,4351.68,Fiber optic,No,No,No,Yes,Bank transfer,true,true,true
+2,69,One year,43.7,8916.36,Fiber optic,No,Yes,No,No,Credit card,false,false,false
+2,44,Month-to-month,57.61,2315.29,Fiber optic,No,No,No,No,Mailed check,false,true,true
+7,15,Month-to-month,80.3,5829.28,DSL,No,No,Yes,No,Electronic check,true,false,true
+1,21,Two year,90.37,2160.09,None,No,No,No,Yes,Electronic check,true,false,true
+2,32,Month-to-month,32.26,1482.41,None,Yes,Yes,Yes,No,Mailed check,true,true,true
+10,44,One year,65.89,1966.71,DSL,No,No,No,Yes,Mailed check,false,true,true
+1,34,One year,36.51,5681.27,Fiber optic,No,No,Yes,Yes,Electronic check,false,false,true
+10,27,One year,91.55,2717.67,None,No,No,Yes,Yes,Bank transfer,true,true,false
+10,4,Month-to-month,63.83,4417.17,None,No,Yes,Yes,Yes,Electronic check,true,true,true
+1,38,One year,37.86,6940.16,None,No,Yes,Yes,No,Credit card,false,false,false
+1,30,One year,42.21,5338.1,None,No,Yes,Yes,Yes,Bank transfer,false,true,true
+7,21,Month-to-month,83.33,8409.45,Fiber optic,Yes,No,Yes,No,Credit card,true,true,true
+9,33,One year,35.92,1024.58,None,No,Yes,Yes,Yes,Bank transfer,true,false,true
+10,29,One year,99.68,1051.8,Fiber optic,Yes,Yes,No,No,Electronic check,true,true,true
+10,36,One year,95.43,7030.64,None,No,No,No,Yes,Credit card,true,false,false
+5,56,Two year,83.93,3949.8,DSL,No,No,Yes,Yes,Bank transfer,false,true,false
+2,66,Two year,45.44,5086.9,DSL,No,No,Yes,Yes,Mailed check,false,true,false
+4,14,Month-to-month,45.18,7478.44,None,Yes,No,Yes,Yes,Credit card,true,false,true
+2,21,One year,30.22,1496.53,DSL,Yes,No,Yes,Yes,Electronic check,true,false,false
+10,70,Month-to-month,97.42,1163.5,Fiber optic,No,No,No,Yes,Electronic check,true,true,true
+10,25,One year,42.59,2921.11,DSL,Yes,No,No,No,Bank transfer,false,false,false
+2,18,One year,53.0,261.63,DSL,Yes,Yes,No,No,Bank transfer,true,true,false
+7,17,Two year,87.9,6921.34,None,No,No,Yes,No,Electronic check,false,true,true
+8,41,One year,45.64,8016.65,None,No,Yes,Yes,Yes,Bank transfer,false,false,false
+6,29,Two year,95.34,3403.5,None,Yes,Yes,No,Yes,Bank transfer,true,false,true
+5,53,Two year,85.07,1293.95,Fiber optic,Yes,No,Yes,Yes,Bank transfer,true,true,true
+7,59,Two year,49.01,8126.62,DSL,No,Yes,Yes,Yes,Credit card,true,true,false
+8,72,One year,85.12,8219.21,None,Yes,No,No,No,Credit card,false,true,true
+8,49,Month-to-month,44.42,7292.12,DSL,Yes,No,No,No,Bank transfer,false,true,false
+1,24,Month-to-month,61.86,5874.79,None,No,No,No,No,Bank transfer,false,true,false
+3,8,Two year,61.66,8978.5,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,false,true
+5,13,One year,46.37,6607.36,Fiber optic,Yes,Yes,No,No,Electronic check,false,true,true
+3,21,Two year,61.88,4067.95,DSL,No,No,Yes,Yes,Credit card,false,false,false
+6,70,Month-to-month,92.75,2799.49,Fiber optic,No,Yes,Yes,No,Credit card,true,false,false
+5,27,One year,34.48,1531.67,None,No,No,Yes,No,Mailed check,false,true,true
+6,10,Two year,49.84,3901.92,Fiber optic,Yes,No,No,Yes,Credit card,false,true,false
+10,65,Two year,60.07,1658.21,None,Yes,Yes,Yes,No,Bank transfer,true,false,true
+5,7,One year,86.39,7666.69,None,No,No,No,Yes,Electronic check,false,true,true
+9,38,Two year,51.54,5516.99,None,No,Yes,No,Yes,Bank transfer,true,false,true
+6,37,One year,76.13,1017.73,None,No,Yes,Yes,No,Bank transfer,false,true,false
+6,29,Two year,35.99,1182.82,Fiber optic,Yes,Yes,No,Yes,Credit card,true,false,false
+6,67,One year,95.31,1078.51,DSL,Yes,No,Yes,Yes,Bank transfer,false,false,true
+6,14,One year,73.74,7197.02,Fiber optic,Yes,No,Yes,Yes,Electronic check,true,false,false
+8,3,Two year,77.1,5219.17,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,true,true,false
+1,64,Two year,85.75,5939.62,None,No,Yes,Yes,No,Bank transfer,true,true,true
+6,68,One year,56.12,2311.06,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,true,true,true
+8,14,Two year,65.91,6394.32,Fiber optic,No,Yes,Yes,Yes,Electronic check,false,true,true
+9,49,One year,98.91,3983.34,None,Yes,Yes,No,Yes,Bank transfer,true,false,false
+9,36,One year,91.96,1197.48,DSL,Yes,Yes,No,No,Credit card,false,false,true
+4,58,One year,96.89,3706.52,DSL,Yes,Yes,Yes,Yes,Mailed check,false,false,true
+5,40,Month-to-month,95.7,822.9,Fiber optic,No,No,No,No,Bank transfer,true,false,false
+4,26,One year,63.35,2670.21,None,Yes,No,No,No,Bank transfer,false,false,true
+7,37,Month-to-month,66.76,7754.86,Fiber optic,Yes,Yes,Yes,No,Electronic check,true,true,false
+1,57,Two year,89.43,6052.45,DSL,Yes,No,Yes,No,Mailed check,false,true,false
+3,48,Month-to-month,62.91,8086.97,None,Yes,No,Yes,Yes,Bank transfer,true,false,true
+2,41,Month-to-month,32.12,3661.96,DSL,No,No,No,Yes,Mailed check,false,true,false
+7,68,One year,32.15,1235.18,DSL,Yes,Yes,No,No,Credit card,true,true,false
+7,71,Two year,42.52,3038.85,None,Yes,Yes,Yes,Yes,Credit card,true,true,true
+1,30,Two year,99.43,2669.77,Fiber optic,No,Yes,Yes,Yes,Bank transfer,true,true,true
+7,67,Two year,88.86,1460.37,None,No,No,No,Yes,Bank transfer,true,false,true
+2,67,Month-to-month,52.71,4984.48,DSL,No,Yes,Yes,Yes,Electronic check,true,true,false
+4,26,Two year,73.55,2354.09,DSL,No,Yes,No,No,Credit card,true,true,true
+7,13,One year,30.32,3749.62,DSL,Yes,Yes,No,Yes,Credit card,false,false,true
+7,72,Two year,62.14,4069.55,DSL,Yes,No,No,No,Electronic check,false,false,false
+2,44,Month-to-month,64.04,2610.64,DSL,Yes,Yes,No,Yes,Electronic check,true,false,true
+9,47,One year,53.69,6321.66,DSL,Yes,No,Yes,No,Mailed check,true,false,false
+3,35,One year,54.25,5810.04,None,No,No,No,Yes,Bank transfer,true,true,false
+10,72,Two year,30.98,4137.97,DSL,Yes,No,No,No,Electronic check,false,true,true
+4,65,Month-to-month,36.85,8122.81,DSL,No,Yes,Yes,Yes,Mailed check,true,false,false
+6,39,Two year,85.86,5454.74,None,No,Yes,Yes,Yes,Credit card,true,true,true
+4,10,Two year,67.22,398.53,DSL,Yes,No,Yes,Yes,Electronic check,false,true,true
+5,72,One year,70.68,3552.19,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,false,true
+10,60,Month-to-month,60.79,5644.69,None,No,No,Yes,No,Mailed check,false,false,true
+2,44,One year,82.47,322.89,DSL,No,No,Yes,No,Mailed check,false,false,true
+2,41,Month-to-month,97.21,7088.69,None,No,No,No,No,Mailed check,true,true,true
+5,49,Two year,68.27,3512.34,Fiber optic,No,No,Yes,No,Bank transfer,true,false,false
+8,52,Two year,99.15,7658.83,Fiber optic,Yes,No,Yes,Yes,Electronic check,true,true,false
+7,62,One year,39.54,1815.7,DSL,No,Yes,No,No,Bank transfer,true,false,true
+2,64,One year,67.34,1205.45,None,Yes,No,Yes,No,Credit card,false,true,false
+3,9,Month-to-month,46.37,7149.04,None,Yes,No,No,Yes,Credit card,true,false,true
+9,70,One year,98.96,4965.71,None,No,Yes,Yes,No,Mailed check,true,true,false
+1,50,One year,61.49,755.17,Fiber optic,No,No,No,Yes,Bank transfer,true,false,true
+1,11,Month-to-month,46.38,7900.08,Fiber optic,No,No,No,No,Electronic check,false,true,true
+1,40,Month-to-month,83.35,8791.83,DSL,No,No,Yes,No,Mailed check,true,false,true
+8,55,Two year,56.98,5063.29,Fiber optic,Yes,Yes,No,No,Electronic check,true,true,false
+4,15,Two year,59.66,2834.2,None,Yes,Yes,Yes,Yes,Mailed check,true,false,false
+8,25,Two year,90.04,5526.85,Fiber optic,No,Yes,Yes,Yes,Bank transfer,false,true,true
+5,29,One year,44.52,809.43,DSL,No,Yes,No,Yes,Mailed check,false,true,false
+7,61,One year,80.63,6240.6,DSL,No,No,No,Yes,Mailed check,false,false,false
+1,39,One year,88.19,5236.34,None,Yes,Yes,No,Yes,Electronic check,true,true,true
+1,27,Two year,56.43,416.94,None,No,No,No,Yes,Mailed check,true,false,true
+1,7,Month-to-month,69.85,7215.24,DSL,No,No,Yes,No,Electronic check,false,true,false
+2,25,Month-to-month,88.84,3323.6,DSL,No,No,No,Yes,Electronic check,false,false,false
+8,44,One year,82.34,7135.71,None,Yes,Yes,No,Yes,Mailed check,true,false,false
+6,28,One year,57.73,8034.7,Fiber optic,No,No,No,Yes,Electronic check,false,true,true
+2,5,Two year,32.44,6348.59,Fiber optic,Yes,No,No,No,Credit card,false,true,false
+6,14,Month-to-month,60.66,5204.26,None,No,No,No,Yes,Bank transfer,true,true,false
+3,58,Month-to-month,51.21,2975.81,None,No,Yes,Yes,Yes,Mailed check,true,true,true
+4,27,One year,56.8,8186.02,None,No,No,Yes,Yes,Credit card,false,false,false
+2,54,Month-to-month,94.36,2140.75,None,Yes,No,Yes,No,Bank transfer,true,false,false
+3,53,Two year,71.22,8957.79,None,Yes,Yes,Yes,Yes,Electronic check,true,true,false
+2,57,Two year,94.57,8073.13,Fiber optic,Yes,No,No,Yes,Bank transfer,false,true,true
+7,50,Month-to-month,45.92,3842.62,None,Yes,No,Yes,Yes,Mailed check,false,true,false
+3,37,Month-to-month,39.37,4250.92,None,No,No,No,Yes,Electronic check,true,true,false
+10,6,One year,45.9,6645.86,Fiber optic,Yes,No,Yes,Yes,Bank transfer,false,false,true
+4,42,Month-to-month,79.17,7677.44,None,Yes,No,Yes,Yes,Credit card,true,false,false
+5,43,Month-to-month,87.71,962.59,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,true,true
+1,36,Two year,53.95,485.8,DSL,No,No,No,No,Credit card,true,false,true
+4,60,Two year,86.37,842.46,None,No,Yes,No,No,Electronic check,false,true,true
+8,15,One year,34.49,8130.26,Fiber optic,Yes,Yes,Yes,No,Electronic check,true,false,true
+3,6,Month-to-month,64.09,726.31,DSL,Yes,Yes,Yes,Yes,Bank transfer,false,true,false
+3,23,One year,79.8,8024.58,Fiber optic,No,Yes,No,Yes,Credit card,true,false,true
+4,72,One year,85.5,2361.4,Fiber optic,Yes,No,Yes,Yes,Bank transfer,false,false,true
+10,46,Two year,49.08,2676.01,Fiber optic,No,Yes,Yes,Yes,Electronic check,true,false,true
+6,35,Two year,90.71,8336.61,None,Yes,Yes,Yes,Yes,Mailed check,true,true,true
+7,18,One year,82.12,3063.34,DSL,No,Yes,No,Yes,Electronic check,false,true,false
+7,59,Two year,95.65,8002.5,None,No,No,Yes,No,Credit card,true,false,true
+6,12,Two year,61.8,2082.62,Fiber optic,Yes,Yes,No,No,Credit card,true,false,true
+6,34,Month-to-month,61.29,4721.4,None,Yes,Yes,No,No,Mailed check,false,true,true
+3,16,One year,93.04,6015.62,None,Yes,Yes,Yes,No,Electronic check,false,false,true
+3,5,Two year,99.41,7811.88,None,No,No,Yes,Yes,Credit card,true,false,false
+1,10,Month-to-month,80.88,8720.73,DSL,Yes,Yes,No,No,Bank transfer,false,true,false
+9,58,One year,52.47,4148.61,DSL,No,No,Yes,No,Credit card,true,true,false
+6,15,One year,94.92,8349.88,None,Yes,Yes,Yes,No,Electronic check,true,true,false
+1,12,One year,42.54,6215.85,Fiber optic,Yes,No,Yes,Yes,Bank transfer,false,false,false
+6,17,One year,59.68,7297.81,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,true,false
+7,48,One year,45.28,5126.39,Fiber optic,No,No,Yes,Yes,Bank transfer,false,true,false
+10,17,Two year,84.43,2711.73,Fiber optic,No,No,Yes,Yes,Electronic check,false,true,false
+9,48,Month-to-month,67.57,7362.08,Fiber optic,No,Yes,Yes,No,Mailed check,false,false,false
+10,65,Two year,92.16,4814.14,Fiber optic,Yes,No,No,Yes,Electronic check,false,true,true
+6,10,Month-to-month,39.68,1185.34,None,Yes,No,Yes,No,Credit card,true,false,false
+4,56,One year,63.89,683.08,Fiber optic,No,No,No,Yes,Bank transfer,true,true,false
+9,8,Month-to-month,77.56,3421.84,DSL,No,Yes,No,Yes,Mailed check,true,true,true
+9,35,Month-to-month,30.71,5698.45,DSL,Yes,No,No,No,Electronic check,true,false,false
+7,67,Two year,31.42,4039.63,Fiber optic,Yes,No,Yes,Yes,Electronic check,false,false,false
+7,19,Month-to-month,37.86,403.32,DSL,Yes,No,Yes,Yes,Credit card,true,true,true
+4,4,One year,60.93,4772.01,Fiber optic,No,No,No,No,Credit card,false,false,false
+5,32,Two year,54.77,1224.71,DSL,Yes,No,No,Yes,Bank transfer,false,false,false
+2,72,Month-to-month,85.52,5039.27,Fiber optic,Yes,Yes,No,Yes,Bank transfer,true,true,true
+10,72,Two year,54.01,8774.09,None,No,No,Yes,Yes,Bank transfer,true,false,false
+10,48,Month-to-month,99.11,7686.89,DSL,No,Yes,No,No,Credit card,true,true,true
+1,26,Two year,83.91,3667.82,DSL,Yes,No,No,Yes,Bank transfer,true,false,false
+1,70,Two year,38.04,2715.7,DSL,No,No,No,Yes,Bank transfer,false,false,true
+8,69,Two year,51.79,2087.66,DSL,Yes,Yes,Yes,Yes,Electronic check,true,true,false
+3,55,Month-to-month,64.08,2718.2,Fiber optic,No,Yes,Yes,Yes,Credit card,true,true,true
+8,4,Month-to-month,29.98,8649.22,DSL,No,Yes,Yes,No,Electronic check,false,false,true
+1,72,Month-to-month,89.0,2624.91,DSL,No,Yes,Yes,No,Electronic check,false,false,false
+4,70,Month-to-month,39.9,5700.0,Fiber optic,No,No,No,No,Mailed check,false,false,false
+10,32,Month-to-month,54.11,3910.47,Fiber optic,No,Yes,Yes,No,Bank transfer,false,false,true
+10,38,Two year,74.16,3476.73,Fiber optic,Yes,No,Yes,No,Bank transfer,false,true,false
+7,41,Two year,52.9,5831.28,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,false,false
+4,23,Two year,68.92,2405.35,Fiber optic,No,No,Yes,No,Electronic check,true,false,true
+9,43,One year,60.05,5639.58,DSL,Yes,Yes,No,No,Electronic check,true,false,false
+5,40,One year,58.83,1043.45,DSL,Yes,No,No,No,Credit card,false,false,false
+9,48,Two year,40.99,5596.4,DSL,Yes,No,No,Yes,Mailed check,true,true,false
+3,71,One year,73.51,2798.3,None,No,Yes,No,Yes,Mailed check,false,false,false
+10,41,One year,87.16,329.61,Fiber optic,No,Yes,Yes,Yes,Credit card,true,false,false
+2,9,Month-to-month,90.95,5313.23,None,No,Yes,Yes,No,Electronic check,true,true,true
+10,14,Two year,72.75,3643.95,None,No,No,No,No,Electronic check,true,false,false
+6,4,Two year,89.39,6691.22,Fiber optic,Yes,No,Yes,No,Mailed check,true,false,true
+9,37,One year,97.92,4164.06,None,No,Yes,Yes,No,Credit card,false,false,false
+3,32,One year,80.06,8534.32,None,No,Yes,No,No,Bank transfer,true,false,true
+1,19,Month-to-month,33.58,8974.52,DSL,No,Yes,Yes,Yes,Bank transfer,true,false,false
+1,13,One year,43.31,1507.44,DSL,No,Yes,Yes,Yes,Mailed check,false,false,true
+7,61,One year,71.44,4907.97,None,No,Yes,Yes,No,Mailed check,true,true,true
+2,40,Month-to-month,83.84,8465.18,DSL,Yes,No,Yes,No,Bank transfer,true,true,true
+1,56,Two year,62.92,7855.75,None,Yes,Yes,No,No,Mailed check,false,false,false
+3,40,Two year,67.91,2266.46,None,Yes,No,Yes,No,Bank transfer,false,true,false
+8,13,One year,84.46,2483.44,Fiber optic,Yes,No,Yes,Yes,Mailed check,true,true,true
+3,45,Two year,76.68,8239.63,DSL,No,Yes,No,Yes,Bank transfer,true,true,false
+8,30,Month-to-month,60.75,1707.7,DSL,Yes,Yes,Yes,Yes,Credit card,false,false,true
+7,45,Two year,53.11,5339.33,None,Yes,Yes,Yes,No,Bank transfer,false,true,false
+4,42,Two year,78.31,492.75,DSL,Yes,No,No,No,Electronic check,true,true,false
+10,53,One year,50.51,7488.94,Fiber optic,Yes,Yes,No,Yes,Mailed check,false,false,true
+8,60,One year,44.51,7480.9,None,No,Yes,Yes,Yes,Bank transfer,true,false,true
+7,65,Month-to-month,87.67,8238.6,DSL,No,Yes,Yes,No,Mailed check,false,true,true
+4,25,Month-to-month,78.2,1673.77,DSL,Yes,Yes,No,No,Electronic check,true,true,false
+4,34,Two year,64.59,5213.54,Fiber optic,Yes,No,No,No,Mailed check,false,false,false
+1,26,Month-to-month,39.87,3402.09,Fiber optic,No,No,No,Yes,Credit card,true,false,true
+4,62,Month-to-month,38.04,1490.7,None,Yes,Yes,Yes,No,Credit card,false,false,true
+3,67,One year,65.21,3754.54,DSL,Yes,Yes,No,No,Bank transfer,true,false,false
+6,57,Two year,40.4,6857.3,None,No,Yes,No,No,Electronic check,true,true,true
+4,11,Two year,85.85,417.21,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,false,false
+5,12,Two year,85.13,1893.99,None,Yes,No,Yes,Yes,Mailed check,true,false,true
+7,56,Month-to-month,47.28,7167.11,Fiber optic,No,Yes,Yes,No,Mailed check,true,false,false
+5,22,Month-to-month,85.74,2302.41,DSL,Yes,No,Yes,No,Mailed check,true,true,true
+6,29,Two year,87.87,2523.71,None,Yes,No,No,No,Electronic check,false,true,false
+5,52,One year,70.69,825.57,None,Yes,Yes,No,No,Bank transfer,false,false,true
+6,46,One year,62.53,8159.11,DSL,No,Yes,Yes,Yes,Credit card,false,true,false
+4,29,Month-to-month,47.13,7969.19,None,No,Yes,Yes,Yes,Electronic check,true,false,false
+10,58,Month-to-month,49.83,7894.32,DSL,No,Yes,No,Yes,Bank transfer,false,false,false
+1,63,Two year,68.45,6419.31,DSL,No,Yes,No,No,Mailed check,true,true,true
+10,31,Month-to-month,41.61,6106.06,DSL,Yes,No,No,No,Credit card,true,false,true
+3,65,Month-to-month,69.77,7652.91,Fiber optic,No,Yes,No,No,Electronic check,false,false,false
+1,17,Month-to-month,75.59,890.03,None,No,Yes,No,Yes,Mailed check,false,false,false
+10,35,Two year,58.49,320.71,DSL,No,Yes,Yes,No,Credit card,true,true,true
+10,62,Month-to-month,34.06,7641.54,DSL,Yes,Yes,Yes,Yes,Electronic check,true,false,false
+6,38,Two year,31.92,3810.7,DSL,No,Yes,Yes,No,Electronic check,true,true,false
+7,4,Two year,93.59,1314.85,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,false,true
+9,50,Two year,49.07,5417.09,Fiber optic,No,Yes,Yes,No,Electronic check,false,true,false
+2,62,Two year,85.79,5417.98,None,Yes,Yes,No,Yes,Electronic check,true,false,false
+2,18,Month-to-month,95.54,2188.33,Fiber optic,No,No,Yes,Yes,Bank transfer,true,false,false
+10,41,One year,72.37,2729.95,DSL,No,Yes,No,No,Bank transfer,true,true,false
+8,24,Two year,73.71,7978.82,None,Yes,Yes,No,No,Credit card,false,true,false
+8,10,Two year,78.95,8605.38,Fiber optic,Yes,Yes,Yes,Yes,Credit card,true,false,true
+3,16,Month-to-month,82.33,2418.18,Fiber optic,No,Yes,No,No,Electronic check,false,true,false
+7,11,Month-to-month,96.37,7028.68,Fiber optic,No,No,Yes,No,Mailed check,false,false,true
+4,63,Month-to-month,67.99,1909.21,DSL,Yes,No,No,Yes,Credit card,false,true,false
+2,32,Month-to-month,65.3,7169.49,DSL,No,Yes,No,Yes,Electronic check,true,true,false
+9,43,Month-to-month,98.23,6042.91,None,Yes,Yes,Yes,Yes,Credit card,false,true,true
+1,8,Month-to-month,66.5,1684.79,DSL,Yes,Yes,No,No,Credit card,true,false,true
+8,66,Month-to-month,50.19,4007.2,None,Yes,Yes,Yes,No,Mailed check,false,false,false
+2,9,One year,86.83,6234.9,DSL,No,No,Yes,Yes,Credit card,true,false,true
+6,8,Month-to-month,30.25,6260.7,DSL,Yes,No,Yes,Yes,Bank transfer,false,false,false
+7,10,Month-to-month,73.08,3950.41,DSL,No,Yes,No,No,Credit card,true,true,true
+9,19,Two year,98.36,7653.95,Fiber optic,No,No,Yes,Yes,Credit card,false,false,false
+1,41,Two year,95.02,376.09,Fiber optic,No,Yes,Yes,No,Credit card,true,false,false
+3,70,Two year,44.16,2150.81,DSL,No,Yes,Yes,Yes,Electronic check,true,false,true
+9,12,Month-to-month,83.17,556.46,DSL,Yes,Yes,Yes,Yes,Bank transfer,true,true,true
+7,35,Month-to-month,88.47,6145.04,DSL,Yes,No,No,No,Electronic check,true,true,false
+8,41,One year,79.56,5269.21,Fiber optic,No,Yes,No,No,Electronic check,true,false,false
+1,34,Two year,46.15,4959.04,Fiber optic,No,No,No,Yes,Bank transfer,true,true,true
+5,49,Month-to-month,69.31,8091.49,DSL,No,No,Yes,No,Bank transfer,false,false,true
+9,32,One year,30.42,6192.71,None,Yes,Yes,Yes,No,Credit card,true,true,true
+8,18,Month-to-month,40.21,5323.82,Fiber optic,Yes,No,No,Yes,Electronic check,true,false,false
+8,51,Two year,32.47,7326.3,None,No,Yes,Yes,Yes,Bank transfer,true,true,false
+3,71,Month-to-month,76.24,4011.87,Fiber optic,No,No,No,Yes,Electronic check,false,false,false
+5,8,Month-to-month,51.59,1890.98,None,Yes,No,No,Yes,Credit card,false,true,false
+10,49,One year,48.21,3177.44,DSL,No,Yes,No,Yes,Credit card,true,true,true
+10,66,One year,76.09,2118.77,Fiber optic,No,Yes,No,Yes,Electronic check,false,true,false
+5,39,Two year,76.9,278.59,Fiber optic,No,No,Yes,No,Bank transfer,true,true,false
+1,14,One year,35.85,625.6,Fiber optic,Yes,Yes,Yes,No,Credit card,false,false,true
+7,58,Month-to-month,87.78,7608.81,None,No,No,Yes,Yes,Credit card,true,true,true
+8,36,One year,53.27,8444.89,Fiber optic,No,Yes,No,No,Bank transfer,true,false,true
+7,51,One year,89.19,1537.54,None,No,No,Yes,Yes,Credit card,false,false,true
+5,37,One year,64.07,324.51,DSL,No,No,No,No,Credit card,false,true,true
+10,48,Month-to-month,63.37,8166.58,DSL,No,Yes,Yes,Yes,Credit card,true,true,true
+5,53,One year,67.11,337.63,DSL,No,Yes,No,No,Credit card,false,true,true
+1,9,One year,94.68,4217.47,DSL,No,No,Yes,Yes,Bank transfer,false,true,true
+8,31,Month-to-month,60.84,3703.26,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,false,true,true
+8,5,Month-to-month,91.37,5957.31,None,Yes,No,Yes,Yes,Credit card,false,false,true
+10,63,Two year,84.15,1500.63,Fiber optic,No,Yes,No,Yes,Mailed check,false,true,false
+1,70,One year,56.75,2088.66,Fiber optic,No,No,No,Yes,Bank transfer,false,true,true
+7,58,Two year,53.58,7456.55,Fiber optic,Yes,No,No,Yes,Mailed check,false,true,false
+9,17,One year,66.38,7403.22,None,Yes,No,No,No,Electronic check,true,false,false
+4,24,Month-to-month,55.52,4423.87,None,Yes,No,No,Yes,Bank transfer,true,false,true
+2,28,Month-to-month,45.74,6010.2,Fiber optic,No,Yes,No,Yes,Electronic check,false,false,false
+2,56,Month-to-month,69.88,586.29,Fiber optic,No,No,No,No,Bank transfer,false,true,true
+1,44,Two year,30.14,6674.63,None,No,Yes,Yes,No,Bank transfer,false,false,true
+6,12,One year,34.5,2047.42,Fiber optic,Yes,No,No,Yes,Bank transfer,false,true,true
+5,28,Two year,41.56,3522.95,None,Yes,No,No,Yes,Electronic check,false,true,true
+8,28,Two year,68.98,2381.88,None,No,No,Yes,Yes,Credit card,true,false,false
+7,18,Month-to-month,58.84,6155.97,None,Yes,No,Yes,Yes,Electronic check,false,true,true
+3,53,Two year,87.06,8984.84,None,Yes,Yes,Yes,Yes,Electronic check,false,true,false
+5,25,Month-to-month,41.18,8902.1,None,Yes,No,No,Yes,Mailed check,false,true,false
+5,21,Month-to-month,96.13,587.15,DSL,Yes,No,No,No,Mailed check,false,false,true
+2,16,Month-to-month,98.05,4736.66,None,No,Yes,No,No,Electronic check,true,true,false
+7,52,Month-to-month,55.15,5781.04,Fiber optic,Yes,No,Yes,No,Electronic check,false,true,false
+4,35,Month-to-month,74.89,6300.01,DSL,No,No,Yes,Yes,Bank transfer,false,false,false
+9,58,One year,46.15,8070.83,None,Yes,No,No,No,Credit card,false,false,true
+3,9,Two year,30.75,7092.81,None,Yes,Yes,Yes,No,Bank transfer,true,true,true
+3,35,Two year,67.41,1364.81,None,No,No,No,Yes,Credit card,false,true,false
+6,36,Two year,76.6,5955.55,DSL,Yes,Yes,Yes,No,Bank transfer,false,false,true
+7,42,Two year,94.43,5235.37,None,No,Yes,Yes,Yes,Credit card,false,true,false
+6,17,One year,62.23,3725.17,None,Yes,No,Yes,No,Credit card,true,false,false
+4,56,One year,92.16,4429.02,DSL,No,No,Yes,Yes,Bank transfer,true,true,false
+1,68,Two year,95.08,7436.73,DSL,No,No,No,No,Bank transfer,false,false,true
+3,69,One year,47.29,2576.75,None,No,No,No,No,Electronic check,true,true,true
+2,12,One year,70.01,1173.35,Fiber optic,No,No,Yes,No,Electronic check,true,true,true
+6,71,Two year,38.31,4356.78,DSL,No,No,No,Yes,Credit card,true,false,false
+8,67,Month-to-month,89.69,5520.14,DSL,Yes,No,Yes,Yes,Electronic check,false,false,false
+10,57,One year,99.76,6623.41,None,No,Yes,Yes,Yes,Credit card,false,true,false
+8,4,Month-to-month,56.32,3482.3,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,false,false,false
+5,60,One year,98.24,4572.23,None,Yes,Yes,Yes,No,Mailed check,true,false,true
+4,60,Month-to-month,44.87,2140.71,Fiber optic,Yes,No,No,No,Electronic check,true,false,true
+10,53,Two year,63.69,6092.02,DSL,Yes,Yes,No,Yes,Bank transfer,false,true,false
+7,37,Two year,67.35,2771.58,DSL,No,Yes,No,No,Bank transfer,true,true,false
+2,36,Two year,59.27,8269.14,None,Yes,No,Yes,No,Bank transfer,false,true,false
+10,23,One year,94.54,4470.49,DSL,Yes,Yes,Yes,No,Mailed check,true,true,true
+5,25,Two year,73.04,8621.54,None,No,No,No,Yes,Bank transfer,true,false,false
+9,39,Month-to-month,69.75,7386.38,None,No,Yes,No,Yes,Electronic check,false,true,false
+8,37,Month-to-month,32.2,5965.98,None,No,No,Yes,Yes,Electronic check,false,false,true
+7,63,Two year,69.76,878.34,Fiber optic,No,No,No,No,Mailed check,false,false,true
+5,50,Two year,86.37,5164.28,Fiber optic,Yes,No,Yes,No,Bank transfer,false,false,true
+3,21,Month-to-month,99.9,5492.79,None,No,No,No,Yes,Credit card,false,false,true
+8,56,One year,73.08,7214.74,Fiber optic,Yes,Yes,No,Yes,Bank transfer,true,false,false
+8,51,Month-to-month,61.05,3856.41,DSL,No,No,Yes,Yes,Mailed check,true,true,false
+4,35,One year,40.91,7429.69,None,Yes,No,No,No,Mailed check,true,true,false
+9,8,Two year,62.08,7423.36,Fiber optic,No,Yes,No,Yes,Electronic check,true,false,true
+5,17,Two year,45.94,1308.7,DSL,No,Yes,Yes,Yes,Credit card,true,true,false
+9,54,Two year,94.38,5935.39,Fiber optic,Yes,Yes,No,No,Electronic check,false,true,true
+2,8,Two year,45.22,5431.12,Fiber optic,Yes,Yes,No,No,Mailed check,false,false,true
+9,64,Month-to-month,76.28,7652.55,Fiber optic,No,Yes,Yes,No,Credit card,false,true,true
+7,23,Two year,67.23,4753.7,None,Yes,No,Yes,Yes,Electronic check,true,true,false
+1,36,One year,58.39,1280.79,None,Yes,No,Yes,Yes,Mailed check,true,true,true
+5,7,Two year,94.98,6362.43,None,No,No,No,Yes,Mailed check,false,false,false
+5,39,Month-to-month,37.67,6179.07,None,Yes,Yes,No,No,Mailed check,false,false,false
+1,17,Two year,92.19,6624.37,Fiber optic,No,No,No,Yes,Mailed check,true,true,true
+6,33,One year,55.39,338.06,None,No,No,Yes,No,Mailed check,false,true,true
+4,38,Month-to-month,91.06,1049.69,Fiber optic,Yes,No,No,No,Credit card,false,true,false
+7,20,One year,78.44,8970.36,Fiber optic,Yes,Yes,Yes,No,Electronic check,false,true,true
+7,45,Month-to-month,60.15,5994.9,None,No,Yes,No,Yes,Bank transfer,false,true,false
+10,37,One year,57.49,6484.87,None,No,No,No,No,Bank transfer,true,false,true
+9,59,Two year,37.32,4567.97,None,Yes,Yes,No,No,Electronic check,false,false,true
+2,57,One year,33.72,623.48,DSL,No,Yes,No,No,Credit card,true,false,false
+7,35,One year,40.66,3123.28,DSL,Yes,Yes,No,No,Credit card,true,true,false
+9,18,One year,48.67,2892.08,DSL,Yes,Yes,Yes,Yes,Electronic check,true,true,false
+4,32,Two year,79.09,2372.09,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,false,true
+1,24,Two year,49.97,2953.4,Fiber optic,Yes,Yes,No,No,Electronic check,true,false,false
+1,43,Month-to-month,84.99,4260.06,Fiber optic,No,Yes,No,Yes,Electronic check,false,true,true
+5,10,One year,40.94,6763.3,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,false,true,true
+7,62,Two year,46.4,8129.82,DSL,No,No,No,Yes,Mailed check,false,false,true
+1,9,One year,51.88,7595.74,Fiber optic,No,No,No,Yes,Bank transfer,true,false,false
+1,71,Two year,34.42,7820.24,DSL,Yes,Yes,No,Yes,Mailed check,false,true,false
+1,30,One year,48.75,3112.31,DSL,Yes,No,No,Yes,Credit card,true,true,true
+5,33,Two year,34.84,6672.48,None,No,Yes,Yes,No,Electronic check,true,false,false
+9,25,Month-to-month,97.28,7929.95,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,true,false
+6,27,One year,79.11,7693.47,Fiber optic,No,No,Yes,Yes,Electronic check,true,true,true
+1,56,One year,46.01,2520.03,DSL,No,Yes,Yes,Yes,Mailed check,true,false,true
+5,18,Month-to-month,98.21,7235.13,Fiber optic,No,No,No,No,Bank transfer,false,true,false
+3,29,One year,53.12,3799.02,None,Yes,Yes,No,No,Bank transfer,true,false,true
+9,7,One year,67.03,6953.86,None,No,Yes,No,No,Credit card,true,true,true
+10,56,Two year,87.49,7525.77,Fiber optic,No,No,Yes,No,Electronic check,false,false,true
+3,13,Month-to-month,32.69,2678.92,Fiber optic,No,No,No,Yes,Bank transfer,false,false,true
+10,40,One year,91.86,1113.67,None,Yes,No,Yes,Yes,Bank transfer,true,false,false
+5,8,One year,36.66,7073.39,DSL,Yes,No,No,Yes,Credit card,false,false,false
+6,62,One year,32.62,4214.46,None,No,Yes,No,Yes,Bank transfer,true,true,true
+7,16,Two year,31.76,5202.14,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,true,false
+2,8,Two year,63.86,1158.61,Fiber optic,Yes,No,No,No,Electronic check,false,false,true
+3,40,Month-to-month,94.44,7624.2,None,Yes,No,Yes,No,Credit card,false,false,false
+1,56,Month-to-month,83.55,4818.23,Fiber optic,Yes,No,Yes,No,Credit card,false,true,false
+2,33,Two year,60.76,3810.91,None,No,Yes,No,No,Credit card,true,true,false
+2,54,One year,63.51,4772.9,None,No,Yes,Yes,No,Credit card,true,false,false
+4,55,One year,44.1,7288.86,DSL,Yes,No,Yes,No,Electronic check,false,false,false
+7,67,Month-to-month,64.22,6429.69,None,No,Yes,No,No,Bank transfer,false,false,false
+10,49,Month-to-month,58.01,2129.15,Fiber optic,Yes,No,No,No,Mailed check,true,true,true
+4,47,Month-to-month,41.95,7314.9,Fiber optic,No,No,Yes,No,Bank transfer,true,false,true
+2,22,One year,40.64,1986.63,None,Yes,No,No,No,Credit card,true,true,true
+8,65,One year,67.35,4530.2,None,No,Yes,Yes,Yes,Credit card,true,true,true
+3,32,One year,63.94,1310.63,None,Yes,Yes,No,Yes,Bank transfer,false,false,true
+3,6,Month-to-month,95.31,1973.0,None,Yes,No,No,No,Electronic check,false,true,false
+2,47,Month-to-month,99.97,2427.24,Fiber optic,No,Yes,Yes,No,Electronic check,true,true,false
+9,62,One year,61.87,5551.68,None,No,Yes,No,Yes,Electronic check,false,true,false
+1,46,Two year,52.33,8110.59,None,No,No,Yes,No,Mailed check,true,false,true
+10,55,One year,55.16,7588.77,DSL,No,No,No,No,Bank transfer,true,false,false
+2,60,Two year,45.66,8290.36,None,Yes,No,No,Yes,Mailed check,true,true,true
+2,72,Two year,78.82,6912.16,Fiber optic,Yes,No,No,No,Bank transfer,true,true,true
+1,5,Two year,77.09,7515.32,None,Yes,Yes,No,Yes,Electronic check,false,true,true
+1,64,One year,47.32,1881.65,None,No,Yes,Yes,No,Mailed check,true,false,true
+10,25,Two year,61.79,7754.15,Fiber optic,Yes,No,Yes,No,Bank transfer,true,true,false
+1,44,Month-to-month,44.35,5425.56,DSL,Yes,No,Yes,Yes,Mailed check,false,false,false
+10,7,Month-to-month,92.65,6568.45,None,No,Yes,No,Yes,Bank transfer,true,false,false
+9,7,One year,88.25,3530.73,DSL,No,Yes,Yes,Yes,Mailed check,true,true,true
+3,47,One year,79.13,6516.86,None,Yes,No,No,No,Bank transfer,true,false,true
+4,29,One year,58.96,4948.79,Fiber optic,Yes,Yes,No,Yes,Bank transfer,false,true,false
+8,46,One year,92.3,1435.91,None,Yes,Yes,Yes,No,Bank transfer,false,false,true
+8,62,Month-to-month,30.11,7325.16,DSL,Yes,Yes,Yes,No,Mailed check,false,true,false
+9,11,Month-to-month,52.78,1738.53,None,No,No,No,No,Bank transfer,false,true,false
+3,46,One year,73.32,2470.08,Fiber optic,No,No,No,No,Mailed check,false,true,true
+9,45,Two year,87.15,3641.46,DSL,No,No,Yes,No,Credit card,true,false,true
+2,68,One year,31.4,4831.64,Fiber optic,No,Yes,Yes,No,Credit card,true,true,false
+6,51,Month-to-month,44.12,7259.51,DSL,Yes,Yes,No,Yes,Electronic check,true,true,true
+7,20,One year,70.2,2845.35,DSL,Yes,No,No,No,Mailed check,false,true,false
+5,29,Month-to-month,92.06,5609.63,DSL,No,No,Yes,No,Mailed check,false,true,true
+8,37,Two year,49.29,4036.06,Fiber optic,Yes,Yes,Yes,No,Credit card,true,false,false
+4,68,One year,79.94,4439.5,Fiber optic,No,No,Yes,Yes,Mailed check,true,false,false
+6,63,Two year,37.72,7139.21,Fiber optic,Yes,Yes,Yes,No,Bank transfer,true,false,false
+4,17,One year,31.43,308.2,None,Yes,Yes,No,No,Electronic check,false,true,true
+8,29,One year,51.82,989.37,DSL,Yes,No,Yes,No,Bank transfer,true,true,false
+2,18,One year,39.41,5590.84,None,Yes,Yes,No,Yes,Electronic check,false,true,true
+5,8,Two year,33.98,7533.46,None,Yes,Yes,No,No,Mailed check,true,true,true
+2,39,Month-to-month,34.36,7415.51,None,No,Yes,Yes,Yes,Electronic check,true,false,true
+7,46,Two year,93.19,4863.68,None,Yes,No,Yes,No,Credit card,true,false,false
+10,62,Two year,60.51,8467.19,Fiber optic,Yes,No,Yes,Yes,Mailed check,true,false,true
+7,20,Two year,95.05,7826.19,Fiber optic,No,Yes,No,Yes,Credit card,true,true,true
+3,66,One year,63.76,5091.51,None,No,No,Yes,No,Credit card,true,true,false
+10,36,One year,60.28,4483.02,None,Yes,No,Yes,No,Bank transfer,true,false,true
+3,71,Month-to-month,46.67,3169.3,None,No,Yes,Yes,No,Credit card,true,false,true
+6,49,One year,55.23,2468.5,Fiber optic,Yes,No,No,No,Mailed check,true,false,true
+9,55,One year,81.16,8911.39,DSL,No,No,No,Yes,Mailed check,false,false,false
+8,48,Month-to-month,41.79,6726.13,Fiber optic,No,Yes,No,Yes,Mailed check,true,false,true
+3,35,One year,76.79,2845.09,DSL,No,No,No,No,Bank transfer,false,true,true
+5,10,Two year,72.8,880.28,DSL,Yes,No,No,Yes,Credit card,true,true,false
+5,35,Month-to-month,76.8,869.81,None,Yes,No,Yes,No,Credit card,true,true,false
+5,11,One year,35.23,3889.82,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,false,false
+9,58,Month-to-month,30.97,7948.64,Fiber optic,No,No,No,Yes,Credit card,false,true,false
+5,40,Two year,66.26,4894.58,DSL,Yes,No,No,No,Credit card,true,false,false
+5,70,One year,53.59,5169.97,Fiber optic,Yes,Yes,Yes,No,Credit card,true,true,true
+9,71,Month-to-month,60.19,8834.61,DSL,No,Yes,Yes,No,Credit card,true,true,false
+1,42,Month-to-month,69.4,8406.54,None,No,No,No,Yes,Electronic check,true,true,true
+4,10,Two year,43.21,8343.63,DSL,Yes,No,Yes,Yes,Mailed check,false,false,true
+6,71,Month-to-month,65.58,3113.94,DSL,No,Yes,No,No,Mailed check,true,true,true
+2,4,Two year,51.71,6219.22,DSL,Yes,Yes,Yes,No,Credit card,true,false,false
+6,7,Month-to-month,53.74,4469.9,DSL,No,Yes,Yes,Yes,Bank transfer,false,true,false
+3,60,Two year,69.05,5861.2,DSL,Yes,Yes,No,Yes,Bank transfer,true,true,true
+3,63,Month-to-month,62.4,4023.19,DSL,Yes,No,Yes,Yes,Mailed check,false,false,false
+2,25,Month-to-month,63.39,8849.85,None,No,Yes,Yes,No,Electronic check,false,true,true
+2,42,Two year,72.36,7521.08,Fiber optic,No,No,Yes,No,Credit card,false,true,false
+1,26,One year,98.59,5712.67,None,Yes,Yes,Yes,No,Electronic check,false,true,true
+1,14,Month-to-month,76.52,8833.26,Fiber optic,No,Yes,No,Yes,Credit card,false,false,false
+10,3,Two year,83.42,2485.81,None,No,Yes,Yes,No,Electronic check,true,true,false
+1,70,Two year,30.15,360.76,Fiber optic,No,No,No,Yes,Mailed check,true,true,false
+5,20,One year,35.6,3124.01,None,No,No,No,Yes,Credit card,true,true,false
+3,42,Two year,75.81,5186.33,DSL,No,No,Yes,No,Bank transfer,true,true,true
+6,38,Two year,53.97,5397.27,DSL,No,No,No,No,Credit card,false,true,false
+4,27,Month-to-month,56.28,303.68,None,Yes,No,No,Yes,Bank transfer,true,false,true
+8,41,Two year,65.02,7641.67,DSL,No,No,Yes,Yes,Electronic check,false,true,true
+1,29,Two year,59.13,8792.59,DSL,No,No,No,Yes,Bank transfer,true,false,true
+10,13,Month-to-month,51.42,7097.57,None,Yes,No,No,Yes,Bank transfer,false,true,false
+10,35,Month-to-month,92.04,1351.52,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,false,false
+1,37,Month-to-month,91.47,4145.4,DSL,Yes,Yes,No,Yes,Bank transfer,true,true,false
+9,72,Two year,81.64,2186.77,DSL,No,Yes,No,Yes,Credit card,false,false,true
+7,56,Month-to-month,38.96,7753.54,DSL,Yes,Yes,Yes,Yes,Credit card,true,false,true
+10,19,Month-to-month,43.61,2710.2,None,No,No,No,No,Electronic check,false,false,false
+4,9,Two year,53.48,2039.02,DSL,Yes,No,No,Yes,Electronic check,true,true,false
+8,27,Two year,30.43,3588.22,Fiber optic,Yes,No,No,Yes,Bank transfer,false,true,true
+1,34,Month-to-month,43.89,2231.51,Fiber optic,No,Yes,No,No,Mailed check,false,true,false
+10,49,Month-to-month,63.29,6455.74,Fiber optic,Yes,No,No,No,Electronic check,true,true,true
+2,26,Month-to-month,50.31,2651.56,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,true,false,false
+3,32,Month-to-month,56.53,1205.62,DSL,No,Yes,No,No,Mailed check,false,true,true
+2,49,Month-to-month,86.35,2786.38,None,No,Yes,No,Yes,Electronic check,true,true,true
+4,5,Two year,41.61,3360.36,DSL,No,No,Yes,No,Bank transfer,false,true,true
+4,63,Two year,82.16,6273.46,DSL,Yes,No,Yes,Yes,Mailed check,true,false,true
+3,36,Two year,81.03,8857.0,None,Yes,No,Yes,No,Credit card,false,true,false
+3,59,Two year,66.29,8967.37,Fiber optic,Yes,Yes,No,No,Bank transfer,true,true,false
+6,25,Two year,62.91,3282.73,Fiber optic,Yes,No,No,No,Credit card,false,true,false
+4,63,Month-to-month,37.48,8417.35,DSL,No,No,Yes,No,Bank transfer,false,false,false
+6,38,Month-to-month,61.82,5294.28,DSL,No,No,No,Yes,Bank transfer,false,false,true
+6,42,Two year,93.06,2805.53,DSL,Yes,Yes,No,Yes,Bank transfer,true,true,false
+4,54,One year,84.9,3554.7,DSL,No,No,No,Yes,Bank transfer,true,false,false
+5,45,One year,76.61,5365.11,DSL,No,Yes,Yes,No,Bank transfer,false,true,false
+8,36,Month-to-month,88.48,2069.81,DSL,Yes,Yes,No,Yes,Credit card,false,true,true
+10,21,One year,86.6,1363.39,DSL,No,No,No,Yes,Mailed check,true,true,false
+1,48,Month-to-month,96.93,5258.78,Fiber optic,No,No,Yes,No,Mailed check,true,true,true
+9,47,Month-to-month,62.75,6546.09,DSL,No,No,Yes,Yes,Electronic check,false,true,false
+3,66,Two year,97.77,5489.51,None,No,No,Yes,No,Credit card,false,false,true
+9,56,Two year,56.79,3122.97,None,No,No,No,No,Bank transfer,false,false,false
+9,32,One year,51.9,2566.34,None,No,No,Yes,Yes,Mailed check,true,true,true
+8,55,One year,56.1,8407.67,Fiber optic,Yes,Yes,No,No,Credit card,true,true,false
+1,33,Two year,87.21,5303.54,Fiber optic,Yes,Yes,No,Yes,Bank transfer,true,false,false
+7,72,Month-to-month,47.77,2157.96,DSL,No,No,No,Yes,Mailed check,true,true,false
+10,22,One year,73.6,1535.38,DSL,No,No,No,No,Mailed check,true,false,false
+7,62,Two year,42.89,4700.88,None,No,Yes,No,Yes,Bank transfer,true,false,false
+6,37,One year,91.31,8927.15,None,No,Yes,No,Yes,Bank transfer,true,false,true
+2,62,Month-to-month,74.83,2874.87,DSL,No,Yes,Yes,No,Electronic check,true,false,false
+5,67,Two year,76.84,353.02,Fiber optic,No,Yes,Yes,Yes,Mailed check,true,false,true
+8,12,Month-to-month,79.07,5514.26,Fiber optic,No,Yes,Yes,Yes,Bank transfer,true,false,true
+5,60,Two year,49.58,6442.04,Fiber optic,Yes,No,Yes,Yes,Credit card,true,true,false
+3,68,Month-to-month,88.07,1522.7,Fiber optic,No,No,No,Yes,Bank transfer,true,false,true
+2,38,Month-to-month,94.17,6395.01,Fiber optic,No,Yes,Yes,No,Mailed check,true,true,true
+9,53,Two year,89.95,8757.81,None,Yes,Yes,Yes,Yes,Bank transfer,true,false,false
+1,60,Two year,74.11,8421.97,Fiber optic,No,Yes,No,No,Mailed check,false,false,true
+2,52,Two year,66.92,1563.31,DSL,Yes,No,Yes,No,Bank transfer,true,true,false
+1,6,Month-to-month,47.52,2521.5,DSL,Yes,Yes,No,Yes,Credit card,true,false,true
+1,8,Month-to-month,63.5,8956.13,DSL,Yes,No,Yes,No,Mailed check,false,true,true
+5,56,One year,32.87,2930.69,DSL,Yes,Yes,Yes,No,Mailed check,false,false,true
+6,39,Month-to-month,86.0,6029.98,None,Yes,No,No,No,Bank transfer,true,false,true
+1,15,One year,49.71,8791.78,DSL,Yes,No,Yes,No,Credit card,false,false,true
+1,37,Month-to-month,60.85,1262.51,Fiber optic,No,No,No,Yes,Bank transfer,false,true,true
+9,59,Month-to-month,59.05,3290.03,None,Yes,No,No,No,Mailed check,false,false,true
+4,50,One year,94.17,5081.48,Fiber optic,Yes,Yes,Yes,No,Electronic check,true,false,false
+2,13,Two year,72.01,3510.17,None,No,Yes,Yes,No,Credit card,true,true,false
+2,18,One year,52.18,6827.23,DSL,Yes,Yes,No,Yes,Credit card,false,false,false
+5,20,Month-to-month,75.02,2893.48,Fiber optic,Yes,No,Yes,No,Credit card,true,false,true
+8,72,Two year,94.24,1293.1,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,false,true
+9,45,Two year,71.66,4126.97,DSL,No,No,Yes,Yes,Credit card,true,false,true
+7,16,Two year,63.68,479.96,Fiber optic,No,Yes,No,Yes,Electronic check,false,false,false
+6,35,Two year,82.06,5233.84,DSL,Yes,No,Yes,No,Credit card,true,true,false
+8,46,Two year,66.26,5293.48,None,No,No,Yes,No,Electronic check,false,true,false
+3,46,Month-to-month,41.42,6353.75,DSL,Yes,No,No,Yes,Bank transfer,true,false,false
+9,12,One year,52.44,5090.95,Fiber optic,Yes,No,Yes,No,Electronic check,true,true,true
+7,23,One year,84.2,8990.16,DSL,No,No,No,Yes,Electronic check,true,true,false
+9,34,Month-to-month,63.42,7100.87,Fiber optic,Yes,No,No,Yes,Credit card,true,true,false
+2,28,Month-to-month,64.63,405.84,DSL,No,Yes,Yes,Yes,Mailed check,true,true,false
+1,33,Two year,91.38,4229.72,None,Yes,No,No,No,Mailed check,false,false,true
+2,55,Two year,94.45,3266.04,DSL,Yes,Yes,No,Yes,Mailed check,true,true,false
+9,14,Month-to-month,77.62,7808.34,None,Yes,No,No,No,Mailed check,false,true,false
+1,49,One year,49.51,6109.62,None,No,No,Yes,No,Credit card,false,false,false
+5,56,Month-to-month,48.13,552.13,DSL,No,Yes,No,No,Electronic check,false,false,true
+5,30,Month-to-month,31.9,4299.81,Fiber optic,Yes,No,Yes,No,Credit card,false,true,true
+5,26,Two year,34.03,1666.02,Fiber optic,Yes,Yes,Yes,No,Electronic check,false,true,false
+6,21,Two year,67.25,7401.57,None,No,No,No,Yes,Bank transfer,false,true,true
+6,26,Two year,40.42,8484.81,Fiber optic,Yes,No,No,No,Electronic check,false,true,true
+3,63,One year,74.08,7851.95,Fiber optic,No,Yes,Yes,No,Electronic check,false,true,false
+8,23,One year,36.09,657.81,Fiber optic,No,No,No,Yes,Bank transfer,false,true,false
+8,9,Two year,94.17,1311.82,None,No,No,No,No,Credit card,true,false,false
+5,56,Two year,60.14,4671.08,None,No,Yes,No,No,Bank transfer,true,true,false
+4,29,Two year,94.89,2005.84,None,No,Yes,Yes,Yes,Mailed check,false,true,false
+8,57,One year,70.69,8008.38,Fiber optic,Yes,Yes,Yes,No,Electronic check,false,false,true
+4,60,Two year,56.79,5075.98,None,No,No,Yes,Yes,Electronic check,true,true,false
+4,11,One year,76.27,4589.32,DSL,No,No,Yes,No,Electronic check,true,true,true
+2,32,Month-to-month,76.03,3125.97,Fiber optic,No,Yes,Yes,No,Mailed check,false,false,false
+6,54,One year,36.23,647.8,DSL,Yes,Yes,Yes,No,Mailed check,true,false,false
+8,58,Month-to-month,49.55,5255.69,DSL,No,Yes,Yes,No,Bank transfer,true,false,true
+5,63,Two year,65.78,7598.47,None,Yes,No,Yes,Yes,Bank transfer,true,true,true
+9,50,Two year,56.58,7370.53,None,No,Yes,No,Yes,Electronic check,true,false,true
+10,46,One year,30.06,4528.72,Fiber optic,Yes,Yes,No,Yes,Electronic check,true,true,true
+4,28,Two year,48.7,2278.82,DSL,Yes,Yes,No,No,Electronic check,false,true,false
+2,41,One year,55.77,7107.49,Fiber optic,No,Yes,Yes,No,Mailed check,true,false,false
+7,47,Month-to-month,42.06,2097.67,DSL,Yes,No,Yes,Yes,Credit card,true,false,false
+7,62,Two year,65.63,7352.33,DSL,Yes,Yes,Yes,Yes,Credit card,false,true,true
+8,27,Month-to-month,35.55,4109.25,Fiber optic,Yes,Yes,No,No,Credit card,false,true,false
+2,43,Two year,88.97,2598.06,DSL,No,No,Yes,Yes,Mailed check,true,true,true
+6,36,Month-to-month,59.77,8694.19,DSL,Yes,No,Yes,Yes,Bank transfer,false,false,false
+1,68,Month-to-month,36.54,4480.85,DSL,No,No,No,No,Electronic check,true,false,false
+2,64,One year,30.75,1456.42,Fiber optic,Yes,Yes,Yes,No,Bank transfer,true,false,true
+3,45,Month-to-month,40.93,5590.48,Fiber optic,No,Yes,No,No,Mailed check,false,false,true
+4,57,One year,76.41,6441.18,None,Yes,No,Yes,Yes,Electronic check,true,false,false
+4,32,Two year,84.61,1149.28,DSL,Yes,No,No,No,Bank transfer,true,true,true
+3,44,One year,50.75,801.84,None,Yes,Yes,Yes,Yes,Bank transfer,false,true,false
+3,13,Two year,57.44,7547.87,DSL,No,No,Yes,Yes,Bank transfer,true,true,true
+7,57,One year,98.92,5539.54,Fiber optic,Yes,No,Yes,Yes,Credit card,false,true,false
+2,66,Two year,90.78,5821.9,None,Yes,Yes,No,No,Bank transfer,true,false,true
+5,13,Month-to-month,90.58,8812.03,DSL,Yes,No,No,No,Mailed check,true,false,false
+5,63,One year,50.49,5868.45,Fiber optic,Yes,Yes,No,No,Electronic check,true,false,false
+2,32,One year,60.89,2187.77,DSL,Yes,No,No,No,Electronic check,true,false,false
+2,63,Two year,44.43,4227.02,None,No,No,No,Yes,Mailed check,true,true,false
+6,25,Month-to-month,43.18,7274.31,DSL,Yes,Yes,No,Yes,Credit card,false,false,false
+10,55,Two year,55.94,5802.73,Fiber optic,Yes,No,No,Yes,Mailed check,true,false,false
+9,10,Two year,43.93,253.66,None,No,No,No,Yes,Mailed check,true,true,true
+1,9,Month-to-month,91.2,6561.97,None,No,No,Yes,Yes,Mailed check,false,true,false
+4,4,Month-to-month,30.5,5656.31,None,Yes,Yes,Yes,Yes,Electronic check,false,true,true
+10,42,One year,40.04,2219.58,DSL,No,Yes,Yes,Yes,Electronic check,false,true,false
+4,63,Two year,89.3,7163.27,Fiber optic,Yes,Yes,No,Yes,Electronic check,true,false,true
+2,8,One year,38.7,7973.75,Fiber optic,No,No,No,Yes,Electronic check,true,true,true
+4,15,Month-to-month,70.02,8923.25,Fiber optic,No,No,Yes,Yes,Credit card,true,false,true
+1,67,Two year,70.82,2278.93,DSL,Yes,No,No,No,Electronic check,true,false,true
+3,39,Two year,82.9,484.27,DSL,No,No,Yes,Yes,Mailed check,false,true,false
+3,17,Month-to-month,80.96,1596.64,None,No,Yes,Yes,No,Mailed check,false,false,true
+8,55,Month-to-month,43.51,4883.27,DSL,Yes,Yes,Yes,No,Electronic check,false,false,false
+6,51,Month-to-month,36.12,3205.21,DSL,No,No,Yes,Yes,Mailed check,true,true,true
+8,40,One year,54.65,4834.53,DSL,Yes,No,Yes,No,Bank transfer,false,false,true
+7,50,Month-to-month,48.46,3671.1,Fiber optic,Yes,Yes,Yes,No,Mailed check,true,false,false
+6,3,One year,61.78,3742.14,DSL,Yes,Yes,No,No,Mailed check,false,true,false
+2,43,Two year,79.24,5333.67,Fiber optic,No,Yes,Yes,Yes,Electronic check,false,false,true
+5,38,One year,52.19,5098.67,DSL,No,Yes,Yes,No,Electronic check,false,false,false
+1,21,One year,44.47,5141.56,DSL,Yes,Yes,Yes,No,Credit card,false,false,true
+4,43,Two year,91.65,1775.94,DSL,Yes,No,No,Yes,Bank transfer,false,true,true
+2,42,One year,69.75,5150.37,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,true,false,false
+9,42,Month-to-month,60.04,3581.72,Fiber optic,Yes,Yes,Yes,No,Credit card,false,false,false
+9,21,Two year,62.88,1364.48,Fiber optic,No,No,Yes,No,Bank transfer,false,false,false
+10,40,One year,33.02,3455.18,DSL,Yes,Yes,No,No,Credit card,true,false,false
+6,67,One year,93.93,6534.63,Fiber optic,Yes,No,Yes,No,Credit card,false,true,true
+7,23,Two year,64.67,5830.52,None,No,No,No,Yes,Mailed check,true,false,true
+10,58,Month-to-month,95.34,3532.03,DSL,Yes,Yes,Yes,Yes,Electronic check,false,true,false
+8,28,One year,98.44,4464.26,Fiber optic,No,Yes,Yes,Yes,Mailed check,false,false,true
+4,14,Two year,79.01,4965.23,DSL,No,Yes,No,Yes,Electronic check,true,true,true
+4,8,Two year,33.07,3636.58,None,Yes,No,Yes,Yes,Bank transfer,true,true,true
+10,55,Month-to-month,52.35,7837.48,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,true,false,false
+4,62,Two year,60.47,2717.71,None,Yes,Yes,Yes,Yes,Bank transfer,false,true,true
+9,65,Month-to-month,33.44,828.16,Fiber optic,No,Yes,No,Yes,Mailed check,true,false,true
+7,51,One year,30.64,6739.31,Fiber optic,Yes,Yes,Yes,Yes,Credit card,false,false,true
+7,61,Two year,91.35,5114.93,Fiber optic,No,Yes,No,Yes,Electronic check,false,true,false
+7,65,One year,41.9,4437.8,None,Yes,No,Yes,No,Bank transfer,false,false,true
+5,33,Two year,58.67,2504.31,DSL,Yes,No,No,No,Electronic check,false,true,true
+7,50,Month-to-month,58.76,7282.53,Fiber optic,Yes,Yes,No,No,Mailed check,false,true,false
+4,58,Two year,84.89,1940.92,None,Yes,No,Yes,Yes,Mailed check,false,false,false
+3,42,Two year,57.57,4814.14,Fiber optic,Yes,No,No,No,Electronic check,false,true,false
+5,25,Two year,43.81,5618.32,None,No,No,No,No,Electronic check,true,true,true
+2,70,Month-to-month,63.85,3625.87,Fiber optic,No,Yes,No,Yes,Mailed check,true,true,false
+3,8,Two year,96.18,1603.71,None,No,No,No,Yes,Bank transfer,true,true,false
+7,7,Two year,95.94,6454.42,None,No,No,No,Yes,Mailed check,false,false,false
+7,8,One year,36.84,2096.91,Fiber optic,No,Yes,No,Yes,Credit card,false,false,false
+10,21,Two year,89.52,3850.72,None,No,No,No,Yes,Credit card,true,false,true
+8,41,One year,30.6,2590.75,Fiber optic,Yes,Yes,No,Yes,Credit card,false,true,true
+6,64,Month-to-month,63.05,7024.59,Fiber optic,No,Yes,Yes,No,Credit card,false,false,true
+3,55,Two year,38.79,6793.2,DSL,No,No,No,No,Credit card,true,false,false
+6,6,Two year,66.99,8289.97,DSL,Yes,No,No,Yes,Mailed check,true,true,false
+7,21,Month-to-month,49.2,4575.21,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,true,true,true
+4,71,Month-to-month,90.75,6576.13,Fiber optic,No,No,Yes,No,Mailed check,true,false,false
+4,42,Two year,52.65,2597.71,DSL,No,No,No,No,Bank transfer,true,false,true
+2,34,One year,41.07,2628.68,None,Yes,No,Yes,No,Mailed check,false,false,false
+5,58,One year,49.88,5128.33,DSL,No,Yes,Yes,Yes,Credit card,true,false,true
+3,22,One year,37.85,8158.99,DSL,No,No,Yes,No,Mailed check,true,true,true
+9,4,One year,62.05,4906.36,None,Yes,Yes,Yes,No,Credit card,false,true,false
+2,18,Month-to-month,46.55,3084.74,None,No,No,Yes,No,Bank transfer,false,true,true
+3,3,One year,89.8,3637.49,DSL,No,Yes,No,No,Mailed check,false,false,false
+1,11,Two year,55.08,7697.33,DSL,No,No,No,No,Bank transfer,true,false,true
+2,71,Two year,31.89,890.9,DSL,No,Yes,No,Yes,Electronic check,false,false,false
+6,50,One year,74.26,3210.87,Fiber optic,Yes,Yes,No,No,Mailed check,false,false,true
+9,20,One year,76.76,3289.42,DSL,No,Yes,No,Yes,Mailed check,false,false,true
+3,63,One year,34.31,2070.2,None,Yes,Yes,Yes,No,Mailed check,false,false,false
+3,38,Month-to-month,30.46,3748.13,DSL,No,No,No,Yes,Credit card,false,true,false
+3,70,One year,55.94,2064.54,Fiber optic,No,Yes,Yes,No,Mailed check,true,true,true
+2,45,One year,71.1,7725.38,None,No,Yes,No,No,Bank transfer,false,false,false
+9,17,Two year,56.02,1274.18,None,No,Yes,Yes,Yes,Mailed check,true,true,false
+4,49,Month-to-month,58.81,4371.76,Fiber optic,No,Yes,Yes,Yes,Mailed check,true,true,true
+10,58,One year,89.56,288.39,Fiber optic,Yes,Yes,Yes,No,Bank transfer,false,false,false
+5,70,Month-to-month,71.09,2709.58,None,No,No,Yes,No,Electronic check,false,false,false
+5,63,One year,31.5,6071.51,None,Yes,No,Yes,Yes,Bank transfer,true,true,true
+3,71,One year,95.93,2181.33,Fiber optic,Yes,Yes,Yes,No,Mailed check,true,true,true
+3,28,Two year,43.75,681.06,Fiber optic,Yes,No,No,No,Electronic check,false,true,false
+7,23,Two year,69.27,7826.95,DSL,No,Yes,Yes,No,Electronic check,false,false,false
+5,16,Month-to-month,63.05,3787.18,Fiber optic,Yes,Yes,No,Yes,Bank transfer,true,false,false
+7,5,One year,65.89,3853.16,DSL,Yes,Yes,No,No,Credit card,true,true,false
+2,4,Two year,67.11,7758.08,Fiber optic,Yes,Yes,No,No,Bank transfer,true,true,true
+5,11,Two year,81.21,2121.75,DSL,No,No,No,Yes,Credit card,false,true,false
+7,24,One year,84.67,7868.34,Fiber optic,Yes,Yes,Yes,No,Electronic check,false,true,true
+5,43,Two year,44.16,8507.83,DSL,Yes,No,Yes,Yes,Credit card,false,false,true
+4,38,Two year,36.48,5882.04,DSL,Yes,Yes,Yes,No,Electronic check,true,true,false
+1,71,One year,97.63,7313.41,DSL,No,Yes,No,Yes,Mailed check,true,false,false
+7,41,Month-to-month,89.4,1008.39,Fiber optic,No,Yes,Yes,Yes,Credit card,true,true,false
+10,60,Month-to-month,71.2,6852.3,None,Yes,Yes,No,No,Electronic check,false,false,true
+4,48,Two year,81.38,4168.96,DSL,No,No,Yes,No,Electronic check,true,false,true
+3,8,One year,41.82,2270.18,DSL,Yes,Yes,No,Yes,Credit card,true,false,true
+6,40,Month-to-month,40.89,6975.52,Fiber optic,No,No,No,Yes,Electronic check,true,false,false
+9,18,Month-to-month,96.95,6948.22,Fiber optic,No,No,No,Yes,Mailed check,true,false,false
+2,25,Month-to-month,51.34,5318.39,None,Yes,No,No,No,Credit card,true,true,true
+3,13,Month-to-month,79.09,7880.47,None,Yes,Yes,Yes,No,Bank transfer,true,false,true
+5,37,Two year,50.35,3178.76,Fiber optic,No,Yes,No,No,Bank transfer,false,false,false
+3,49,One year,61.39,7665.41,None,Yes,Yes,No,No,Credit card,false,false,false
+8,55,One year,65.65,3332.27,Fiber optic,No,Yes,Yes,No,Credit card,true,true,true
+3,56,One year,80.73,7466.61,DSL,No,No,No,No,Electronic check,true,false,false
+7,52,Month-to-month,99.67,4351.84,DSL,No,No,Yes,No,Electronic check,false,false,false
+3,15,Two year,49.97,2673.67,Fiber optic,No,No,No,No,Electronic check,true,false,true
+2,21,Month-to-month,97.21,7114.84,Fiber optic,Yes,Yes,Yes,No,Bank transfer,false,false,true
+9,40,One year,57.24,2628.52,DSL,No,Yes,No,Yes,Credit card,false,true,true
+1,33,Month-to-month,38.52,8464.58,DSL,Yes,No,No,No,Mailed check,true,false,true
+5,42,Two year,74.8,8232.17,DSL,No,Yes,No,Yes,Mailed check,false,false,true
+2,39,Month-to-month,71.74,5698.75,Fiber optic,No,No,Yes,Yes,Bank transfer,false,false,true
+1,46,One year,37.73,5626.54,Fiber optic,Yes,Yes,No,Yes,Electronic check,true,true,true
+5,34,Two year,64.26,434.82,Fiber optic,No,No,No,No,Bank transfer,false,false,true
+9,57,One year,71.38,7472.42,None,Yes,Yes,No,Yes,Electronic check,false,true,false
+5,29,Two year,39.12,5490.9,Fiber optic,No,Yes,No,No,Electronic check,true,false,false
+6,40,Month-to-month,39.69,7969.11,DSL,No,No,Yes,No,Mailed check,true,true,false
+7,60,Month-to-month,92.92,6057.79,Fiber optic,No,No,Yes,No,Electronic check,true,true,true
+4,37,Two year,38.31,714.55,Fiber optic,Yes,Yes,No,No,Mailed check,true,true,true
+2,3,One year,30.5,2519.06,None,No,Yes,Yes,No,Credit card,false,false,false
+10,54,One year,74.08,2573.4,DSL,No,Yes,Yes,No,Mailed check,false,false,false
+7,24,Month-to-month,47.3,385.85,Fiber optic,No,Yes,No,No,Bank transfer,true,true,false
+6,16,Two year,74.02,5026.99,Fiber optic,Yes,No,No,Yes,Electronic check,true,true,true
+9,19,One year,67.5,5576.27,None,No,No,No,Yes,Electronic check,true,true,false
+10,26,Two year,31.51,7065.41,DSL,No,Yes,Yes,No,Bank transfer,false,true,true
+2,50,Month-to-month,56.89,4169.48,DSL,No,Yes,No,Yes,Bank transfer,false,true,false
+10,71,Two year,90.12,5355.47,DSL,Yes,No,Yes,No,Credit card,true,true,true
+4,13,Two year,51.35,7338.19,None,No,No,Yes,Yes,Mailed check,false,false,false
+8,27,Two year,64.06,7745.16,None,No,Yes,No,No,Bank transfer,false,true,false
+6,25,Month-to-month,93.83,1370.13,DSL,No,No,Yes,Yes,Credit card,true,true,true
+4,38,One year,56.89,8285.61,Fiber optic,Yes,No,Yes,Yes,Mailed check,false,false,true
+10,24,Two year,85.69,446.17,DSL,No,No,No,Yes,Bank transfer,false,true,false
+4,52,Two year,37.68,6736.14,DSL,No,Yes,No,No,Mailed check,true,false,false
+10,11,Two year,64.76,7739.45,DSL,No,No,No,No,Credit card,false,true,true
+1,9,Month-to-month,91.24,6133.43,None,Yes,Yes,No,No,Credit card,false,false,false
+3,65,Month-to-month,79.63,1105.68,Fiber optic,No,Yes,Yes,Yes,Electronic check,false,true,false
+5,65,One year,36.4,3338.41,Fiber optic,Yes,Yes,No,Yes,Bank transfer,true,false,true
+9,20,One year,44.96,6254.4,None,Yes,No,Yes,No,Bank transfer,true,false,false
+5,44,One year,77.66,1602.07,Fiber optic,Yes,No,No,No,Bank transfer,true,true,false
+1,65,Month-to-month,38.16,8697.14,Fiber optic,Yes,No,No,Yes,Credit card,true,true,false
+8,60,Month-to-month,47.1,6339.1,Fiber optic,No,No,Yes,Yes,Electronic check,false,false,false
+6,9,One year,37.72,6507.15,None,Yes,Yes,Yes,Yes,Bank transfer,true,true,false
+9,62,Two year,68.35,5745.15,DSL,Yes,No,Yes,Yes,Mailed check,true,false,true
+7,59,Month-to-month,79.06,5949.14,None,No,Yes,Yes,No,Electronic check,false,false,true
+4,18,Month-to-month,76.14,825.93,Fiber optic,No,No,No,Yes,Bank transfer,true,true,true
+9,45,Two year,53.32,3485.78,DSL,Yes,No,No,Yes,Credit card,true,false,false
+6,57,One year,41.33,4621.86,DSL,No,No,Yes,No,Mailed check,false,true,true
+1,46,Month-to-month,38.14,5876.02,DSL,No,Yes,No,Yes,Credit card,true,false,true
+9,33,Month-to-month,66.15,2525.99,Fiber optic,No,No,Yes,Yes,Bank transfer,false,true,true
+6,32,Month-to-month,77.34,4152.56,Fiber optic,No,No,Yes,No,Bank transfer,false,true,false
+10,29,Month-to-month,78.92,2128.54,DSL,No,No,Yes,No,Bank transfer,false,true,false
+3,68,Month-to-month,51.44,3974.67,DSL,No,No,Yes,Yes,Bank transfer,true,true,false
+10,14,Month-to-month,75.61,7210.32,DSL,Yes,Yes,No,No,Mailed check,true,false,true
+7,54,Month-to-month,71.93,5677.04,DSL,No,No,No,No,Credit card,true,true,false
+1,3,Month-to-month,58.54,7412.54,Fiber optic,No,No,Yes,Yes,Credit card,false,true,false
+9,11,Two year,58.37,8845.87,None,No,Yes,No,Yes,Credit card,true,false,true
+2,65,One year,74.44,8971.95,DSL,No,No,Yes,No,Credit card,false,true,true
+3,43,One year,95.24,2066.91,Fiber optic,No,Yes,No,No,Bank transfer,true,true,true
+10,31,One year,62.8,5306.46,DSL,Yes,Yes,No,No,Electronic check,false,true,true
+2,7,One year,85.97,8730.19,DSL,No,No,Yes,No,Electronic check,true,true,true
+8,9,Month-to-month,46.3,641.05,Fiber optic,Yes,No,No,No,Mailed check,true,true,true
+1,47,Month-to-month,70.36,3850.5,Fiber optic,No,No,Yes,No,Credit card,false,true,true
+9,71,One year,79.78,6060.18,DSL,No,Yes,Yes,No,Mailed check,true,false,true
+5,66,One year,48.61,6588.43,None,Yes,Yes,No,Yes,Bank transfer,true,false,true
+2,55,Month-to-month,59.79,8110.45,None,Yes,No,Yes,Yes,Credit card,true,false,false
+9,62,Month-to-month,31.77,6453.66,DSL,Yes,No,Yes,Yes,Bank transfer,false,false,true
+2,57,Month-to-month,39.9,8681.68,Fiber optic,Yes,Yes,No,Yes,Mailed check,false,true,true
+10,70,One year,36.71,7138.35,None,No,No,No,Yes,Credit card,true,false,false
+9,26,One year,67.14,1935.88,None,No,Yes,Yes,Yes,Credit card,true,true,true
+5,40,Month-to-month,72.09,7124.58,None,No,No,Yes,Yes,Electronic check,true,false,false
+9,24,Month-to-month,39.91,3362.45,Fiber optic,No,No,No,No,Credit card,false,false,true
+9,44,Two year,42.24,2056.74,Fiber optic,Yes,Yes,Yes,No,Electronic check,false,true,true
+1,38,One year,96.92,2353.71,DSL,No,Yes,Yes,No,Mailed check,false,true,false
+1,47,One year,51.6,4705.28,Fiber optic,Yes,Yes,No,No,Credit card,true,false,true
+5,9,One year,35.74,6947.32,None,Yes,No,No,No,Bank transfer,false,false,true
+1,45,Two year,76.3,8079.8,DSL,Yes,Yes,Yes,No,Bank transfer,true,true,true
+4,17,Two year,72.66,6367.0,DSL,No,No,Yes,No,Credit card,true,true,true
+7,21,One year,37.4,755.4,None,No,Yes,No,Yes,Electronic check,false,true,true
+10,52,One year,74.84,2390.03,Fiber optic,No,No,No,No,Credit card,false,false,true
+4,14,Month-to-month,99.95,4129.48,None,Yes,No,Yes,Yes,Mailed check,true,true,true
+4,49,One year,43.87,6978.0,None,No,Yes,Yes,Yes,Credit card,false,false,true
+5,50,One year,48.8,685.4,None,No,No,Yes,No,Electronic check,false,true,true
+1,53,Two year,33.76,5869.02,DSL,No,No,Yes,No,Electronic check,true,false,false
+10,18,Month-to-month,79.27,7366.43,None,No,No,Yes,No,Bank transfer,true,true,true
+5,5,Two year,93.87,5422.72,Fiber optic,Yes,No,Yes,No,Mailed check,true,true,true
+9,26,Month-to-month,52.25,4745.24,None,Yes,Yes,Yes,Yes,Bank transfer,true,true,true
+8,66,Two year,72.8,1019.08,None,Yes,Yes,Yes,Yes,Credit card,true,false,false
+3,56,One year,40.44,2885.97,DSL,Yes,No,No,No,Credit card,false,false,true
+7,9,Month-to-month,69.65,6280.02,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,true,false
+10,27,One year,61.7,4909.48,DSL,Yes,No,No,No,Bank transfer,false,true,true
+3,16,One year,65.81,6226.05,DSL,No,Yes,No,Yes,Electronic check,true,false,false
+6,24,Two year,56.36,2508.06,None,Yes,Yes,No,No,Credit card,false,true,false
+2,52,Month-to-month,85.09,5312.15,DSL,No,Yes,No,No,Mailed check,true,false,false
+7,26,Month-to-month,47.34,3078.39,Fiber optic,Yes,No,Yes,No,Bank transfer,true,false,true
+5,57,Month-to-month,46.65,6271.43,None,No,No,No,No,Electronic check,true,false,false
+1,37,Month-to-month,66.74,2839.97,None,Yes,Yes,Yes,Yes,Mailed check,false,true,true
+6,63,Two year,91.18,7316.12,DSL,No,Yes,Yes,No,Mailed check,true,false,false
+2,48,Month-to-month,44.33,5841.33,DSL,Yes,No,Yes,Yes,Mailed check,false,true,true
+6,36,Month-to-month,83.11,3983.08,DSL,Yes,No,Yes,No,Bank transfer,true,true,false
+6,61,Month-to-month,39.83,1392.75,DSL,Yes,Yes,Yes,No,Mailed check,false,true,true
+3,17,Two year,72.5,7457.71,None,Yes,No,Yes,No,Bank transfer,true,false,true
+9,63,Two year,37.04,5432.58,Fiber optic,No,No,Yes,No,Electronic check,false,false,false
+7,63,Two year,55.61,2438.77,DSL,Yes,No,Yes,Yes,Credit card,true,true,false
+3,42,Two year,42.4,977.34,None,Yes,No,Yes,Yes,Bank transfer,false,false,true
+4,22,Month-to-month,44.08,1196.82,Fiber optic,Yes,Yes,No,No,Bank transfer,false,true,true
+10,41,One year,55.52,884.02,DSL,Yes,No,No,Yes,Bank transfer,false,true,false
+10,5,One year,54.93,4051.32,Fiber optic,Yes,No,No,Yes,Bank transfer,true,true,false
+7,4,Two year,100.02,2355.39,None,Yes,No,Yes,No,Electronic check,false,true,true
+4,28,One year,48.46,2455.47,None,Yes,Yes,No,No,Bank transfer,false,false,true
+10,5,Two year,70.03,1325.24,Fiber optic,Yes,No,Yes,No,Credit card,true,true,true
+3,63,Two year,40.97,7412.93,DSL,Yes,Yes,No,Yes,Mailed check,false,false,true
+10,23,One year,92.64,2355.32,DSL,Yes,Yes,Yes,Yes,Credit card,true,false,true
+7,26,Month-to-month,76.8,6948.68,DSL,Yes,Yes,No,Yes,Mailed check,true,false,false
+1,26,One year,70.94,7486.42,DSL,No,No,No,Yes,Bank transfer,true,true,true
+4,37,Month-to-month,60.0,8494.84,None,No,Yes,Yes,No,Bank transfer,true,false,false
+9,72,Two year,92.0,3033.92,Fiber optic,No,Yes,No,No,Mailed check,true,true,false
+7,23,One year,34.86,6578.24,DSL,Yes,Yes,No,No,Mailed check,true,true,true
+8,11,One year,60.02,1991.6,None,No,No,Yes,No,Credit card,false,false,true
+10,37,Month-to-month,34.4,6756.37,Fiber optic,No,No,Yes,No,Electronic check,true,false,true
+5,38,One year,93.54,1240.32,Fiber optic,Yes,No,Yes,No,Electronic check,false,false,true
+4,48,One year,56.93,8031.06,DSL,No,No,No,No,Mailed check,true,false,true
+5,10,One year,57.5,7439.93,DSL,No,No,Yes,Yes,Electronic check,true,false,true
+1,11,Two year,43.13,6633.07,Fiber optic,No,No,No,Yes,Bank transfer,true,false,true
+9,47,Two year,85.97,4726.59,Fiber optic,No,No,Yes,Yes,Bank transfer,true,false,false
+7,14,One year,58.54,842.89,None,Yes,Yes,No,No,Bank transfer,true,true,true
+2,46,One year,93.9,2083.88,None,Yes,No,No,Yes,Bank transfer,true,true,true
+3,70,Month-to-month,61.23,3626.28,DSL,No,Yes,Yes,Yes,Mailed check,true,false,true
+7,49,One year,47.37,3515.89,None,Yes,Yes,No,No,Bank transfer,true,false,true
+9,25,Month-to-month,87.51,7740.96,None,Yes,No,Yes,Yes,Electronic check,true,true,false
+3,20,Month-to-month,72.44,6277.29,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,true,true
+1,32,Two year,77.98,2316.71,None,Yes,No,Yes,No,Credit card,true,true,false
+10,37,Month-to-month,35.56,5568.54,Fiber optic,No,No,Yes,Yes,Electronic check,false,true,true
+9,17,Two year,86.21,7960.62,Fiber optic,Yes,Yes,No,No,Credit card,true,true,true
+6,26,Month-to-month,82.53,7301.14,Fiber optic,No,No,No,No,Credit card,false,true,true
+1,61,Two year,61.1,6262.23,Fiber optic,No,Yes,Yes,No,Electronic check,false,true,false
+7,25,One year,65.39,7209.53,None,Yes,No,No,Yes,Electronic check,false,true,true
+9,67,Month-to-month,77.76,4417.56,None,Yes,Yes,Yes,Yes,Bank transfer,true,true,false
+10,63,One year,54.72,5270.48,None,Yes,No,Yes,Yes,Credit card,true,true,false
+3,22,Month-to-month,68.75,4403.01,DSL,No,Yes,Yes,Yes,Bank transfer,false,true,true
+3,58,One year,65.27,2747.56,DSL,Yes,Yes,No,Yes,Electronic check,true,true,false
+5,58,Month-to-month,34.16,1809.67,Fiber optic,No,No,No,Yes,Bank transfer,false,false,false
+4,30,Month-to-month,63.81,4214.0,Fiber optic,No,Yes,No,Yes,Bank transfer,false,false,true
+7,59,One year,43.14,8915.62,None,Yes,No,Yes,Yes,Bank transfer,false,false,true
+5,72,Two year,61.1,2552.47,None,No,Yes,Yes,Yes,Mailed check,false,true,true
+3,51,Month-to-month,49.9,6736.31,Fiber optic,Yes,No,Yes,Yes,Credit card,false,false,true
+7,37,Month-to-month,96.51,453.49,DSL,Yes,Yes,No,Yes,Electronic check,false,false,true
+8,3,One year,87.66,6293.35,None,No,Yes,Yes,No,Credit card,false,true,false
+8,10,One year,98.08,4300.94,DSL,No,No,No,No,Bank transfer,false,false,false
+9,21,Month-to-month,69.66,1080.42,None,No,Yes,Yes,No,Electronic check,true,true,false
+4,67,Two year,88.97,1853.67,DSL,No,No,Yes,Yes,Electronic check,false,false,false
+5,57,One year,45.4,6830.42,None,Yes,No,No,Yes,Mailed check,true,false,true
+9,30,Month-to-month,62.88,1445.36,Fiber optic,Yes,No,Yes,Yes,Credit card,false,true,true
+3,10,Month-to-month,30.76,2485.26,None,Yes,No,Yes,Yes,Credit card,false,false,false
+9,22,Two year,85.74,7825.35,None,Yes,No,Yes,No,Mailed check,true,true,true
+5,48,One year,74.74,2344.72,None,No,No,No,Yes,Electronic check,false,true,false
+10,37,Month-to-month,42.31,8436.64,Fiber optic,No,No,Yes,Yes,Bank transfer,false,false,false
+4,60,Month-to-month,34.78,6381.23,DSL,Yes,Yes,No,Yes,Electronic check,false,true,false
+5,29,Two year,75.91,1035.32,None,No,No,Yes,Yes,Mailed check,true,true,false
+3,10,Two year,52.38,3649.56,None,Yes,Yes,Yes,Yes,Bank transfer,false,false,true
+10,68,Month-to-month,74.36,1302.02,DSL,Yes,Yes,Yes,No,Credit card,true,true,true
+2,5,Two year,68.33,673.48,DSL,No,Yes,Yes,Yes,Electronic check,true,true,true
+4,56,One year,80.91,5191.43,None,Yes,No,No,Yes,Bank transfer,false,true,true
+1,32,One year,46.77,5008.95,Fiber optic,No,No,No,No,Mailed check,false,true,true
+9,5,Month-to-month,37.23,7950.95,DSL,No,No,Yes,No,Bank transfer,false,false,true
+5,68,One year,72.78,6705.97,Fiber optic,No,Yes,No,Yes,Mailed check,false,true,false
+8,48,One year,83.49,6988.77,Fiber optic,No,No,No,Yes,Electronic check,false,false,true
+10,31,Two year,33.73,8581.39,Fiber optic,No,Yes,No,Yes,Credit card,false,true,true
+10,54,One year,53.15,1117.54,None,No,Yes,Yes,Yes,Bank transfer,true,false,true
+1,22,One year,32.97,5288.28,Fiber optic,Yes,No,Yes,Yes,Bank transfer,true,true,false
+6,13,Month-to-month,53.12,3446.9,Fiber optic,No,No,No,No,Bank transfer,true,false,false
+10,72,Two year,100.03,3012.04,None,Yes,No,No,Yes,Mailed check,true,true,false
+6,44,Month-to-month,78.21,1598.99,DSL,No,No,No,No,Mailed check,true,false,true
+8,33,Two year,33.65,6086.7,DSL,No,Yes,No,Yes,Electronic check,true,false,false
+6,6,Month-to-month,64.15,3175.23,Fiber optic,Yes,Yes,No,No,Bank transfer,false,false,false
+5,32,Month-to-month,57.14,5959.2,None,No,No,No,No,Credit card,true,false,true
+1,31,Month-to-month,35.22,2664.93,DSL,Yes,Yes,No,No,Credit card,true,false,true
+8,23,Two year,99.26,8084.39,None,Yes,Yes,No,No,Credit card,false,false,false
+7,16,Two year,93.81,3996.67,DSL,Yes,No,No,Yes,Bank transfer,false,false,false
+9,70,Two year,68.68,8830.76,DSL,No,No,Yes,Yes,Mailed check,true,true,false
+6,10,One year,87.35,4423.08,DSL,No,No,Yes,Yes,Electronic check,false,true,true
+4,57,One year,94.19,839.81,Fiber optic,No,No,No,Yes,Electronic check,true,false,false
+5,41,Two year,67.08,1948.65,DSL,No,Yes,Yes,Yes,Mailed check,false,false,true
+1,52,Month-to-month,87.52,2556.09,DSL,No,No,No,No,Electronic check,false,true,false
+7,40,Month-to-month,63.9,2529.03,None,No,No,Yes,No,Electronic check,false,false,false
+7,24,Two year,62.65,7477.81,Fiber optic,Yes,Yes,No,Yes,Mailed check,true,true,true
+1,37,One year,63.34,2184.17,None,No,Yes,Yes,No,Electronic check,true,true,true
+2,3,Month-to-month,51.45,612.08,Fiber optic,No,Yes,No,Yes,Credit card,false,true,false
+5,17,Two year,65.87,2097.57,Fiber optic,Yes,Yes,No,No,Mailed check,false,false,false
+1,53,One year,60.22,3834.77,None,Yes,Yes,Yes,Yes,Bank transfer,true,false,false
+8,57,One year,76.02,8864.19,DSL,Yes,No,Yes,Yes,Credit card,false,false,false
+5,50,Two year,63.56,6697.36,DSL,No,No,No,No,Mailed check,true,false,true
+8,25,One year,55.15,4167.21,Fiber optic,Yes,Yes,No,Yes,Mailed check,true,true,true
+2,63,Month-to-month,77.6,3202.65,DSL,Yes,Yes,No,No,Credit card,false,true,true
+10,38,One year,98.4,7679.14,Fiber optic,Yes,Yes,Yes,No,Mailed check,false,false,true
+7,53,Two year,68.5,8102.96,DSL,No,Yes,No,Yes,Bank transfer,false,false,true
+10,5,One year,58.8,593.08,Fiber optic,No,Yes,No,Yes,Bank transfer,true,false,true
+5,65,One year,57.25,6060.13,None,Yes,Yes,Yes,No,Electronic check,true,false,false
+9,66,One year,96.74,2017.94,None,No,Yes,Yes,No,Electronic check,false,true,false
+2,12,Month-to-month,65.99,5717.48,Fiber optic,No,Yes,Yes,Yes,Bank transfer,false,true,true
+5,69,Month-to-month,91.8,7872.82,None,No,No,No,No,Credit card,false,false,true
+7,52,Two year,57.36,4682.95,Fiber optic,No,Yes,No,Yes,Credit card,true,true,false
+7,19,Month-to-month,81.16,7281.58,Fiber optic,No,Yes,Yes,No,Bank transfer,true,false,false
+4,26,Month-to-month,74.66,6681.09,Fiber optic,Yes,Yes,No,No,Electronic check,false,false,true
+3,48,One year,69.5,7370.71,Fiber optic,Yes,No,No,Yes,Electronic check,false,false,true
+9,66,Two year,73.88,4632.62,Fiber optic,Yes,No,No,Yes,Bank transfer,true,false,true
+9,3,One year,63.75,5229.43,None,Yes,Yes,Yes,Yes,Mailed check,false,false,false
+5,5,One year,66.14,2038.46,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,false,false,false
+3,30,Two year,57.3,4597.44,DSL,No,Yes,Yes,Yes,Credit card,false,true,false
+10,4,One year,59.4,3790.38,None,No,No,No,No,Electronic check,false,false,true
+10,36,Two year,96.23,3323.07,Fiber optic,Yes,No,Yes,No,Electronic check,true,false,false
+3,56,Two year,89.96,5446.49,DSL,Yes,No,Yes,Yes,Credit card,true,false,true
+8,71,Month-to-month,54.96,4749.33,Fiber optic,No,No,Yes,No,Mailed check,false,true,true
+7,24,One year,78.26,6664.92,None,Yes,Yes,Yes,No,Bank transfer,true,true,false
+7,67,Two year,78.55,8644.52,None,Yes,Yes,Yes,Yes,Bank transfer,true,false,false
+6,60,Month-to-month,94.94,8633.99,None,Yes,Yes,No,No,Electronic check,true,false,true
+7,66,Month-to-month,69.51,2872.44,Fiber optic,Yes,Yes,No,No,Credit card,true,true,true
+5,53,One year,58.67,6220.58,None,No,No,No,Yes,Electronic check,false,true,true
+5,59,Two year,66.46,3482.26,DSL,Yes,Yes,No,No,Mailed check,true,true,true
+3,72,Month-to-month,73.63,2757.82,Fiber optic,Yes,Yes,Yes,Yes,Credit card,true,true,true
+6,70,Two year,93.18,8610.24,Fiber optic,Yes,No,Yes,No,Mailed check,true,true,true
+1,22,Month-to-month,48.84,6305.76,None,Yes,Yes,No,Yes,Bank transfer,true,false,true
+4,30,One year,60.0,5407.34,DSL,No,Yes,Yes,No,Bank transfer,false,false,false
+9,48,Month-to-month,87.63,2234.85,Fiber optic,Yes,No,No,No,Credit card,true,true,true
+7,5,Month-to-month,51.81,1166.86,None,Yes,Yes,No,No,Bank transfer,true,true,false
+10,28,One year,91.2,6873.65,None,No,No,Yes,No,Bank transfer,false,true,false
+8,27,Two year,70.19,2951.13,None,Yes,Yes,Yes,No,Credit card,false,true,true
+3,61,Month-to-month,31.48,7256.36,DSL,No,Yes,Yes,No,Electronic check,true,false,true
+6,66,Two year,46.33,8428.73,DSL,No,Yes,Yes,Yes,Credit card,false,false,false
+3,58,Month-to-month,76.39,962.07,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,true,true,false
+5,6,Month-to-month,36.28,2929.53,Fiber optic,Yes,Yes,Yes,No,Bank transfer,false,true,false
+1,51,Month-to-month,86.74,3665.67,DSL,Yes,Yes,Yes,No,Bank transfer,false,false,false
+6,64,Two year,66.85,2175.47,None,No,No,No,Yes,Credit card,false,false,true
+7,42,One year,44.35,8103.73,None,Yes,Yes,No,No,Credit card,true,true,false
+4,50,One year,39.72,5184.55,Fiber optic,No,No,No,No,Mailed check,true,true,true
+5,9,One year,43.61,3472.58,DSL,No,Yes,No,Yes,Credit card,false,true,false
+7,34,Month-to-month,61.36,6560.93,DSL,No,No,Yes,No,Bank transfer,true,false,false
+9,27,Two year,32.84,6218.06,Fiber optic,No,No,No,No,Credit card,false,false,false
+2,62,One year,70.5,4561.94,Fiber optic,No,Yes,No,Yes,Mailed check,true,true,false
+4,11,Month-to-month,96.84,7360.12,Fiber optic,Yes,No,Yes,Yes,Electronic check,true,false,true
+3,62,Two year,62.01,3966.64,DSL,Yes,No,Yes,No,Electronic check,true,true,true
+6,70,One year,98.79,4881.81,Fiber optic,Yes,No,No,No,Bank transfer,false,true,true
+5,49,One year,79.78,4955.11,None,No,Yes,Yes,Yes,Electronic check,false,true,true
+9,67,Month-to-month,62.06,1188.75,Fiber optic,No,Yes,No,Yes,Credit card,false,false,false
+4,8,Two year,43.33,5098.08,None,Yes,Yes,Yes,No,Bank transfer,true,false,false
+7,33,One year,50.29,1695.62,Fiber optic,No,Yes,Yes,No,Bank transfer,true,true,false
+6,16,One year,74.98,3128.86,None,Yes,No,No,No,Bank transfer,true,false,false
+5,51,Two year,80.49,2791.95,DSL,Yes,No,Yes,Yes,Bank transfer,false,false,false
+9,19,One year,59.64,3133.74,DSL,Yes,Yes,Yes,No,Credit card,false,true,false
+9,50,Two year,59.13,5002.15,Fiber optic,Yes,No,Yes,No,Electronic check,false,true,false
+10,31,Two year,85.69,986.98,DSL,Yes,Yes,Yes,Yes,Bank transfer,false,true,true
+4,25,One year,78.99,5080.97,DSL,Yes,No,Yes,Yes,Credit card,false,false,true
+9,34,One year,36.14,527.27,None,Yes,Yes,Yes,Yes,Mailed check,true,false,true
+5,61,Month-to-month,30.46,3548.19,Fiber optic,Yes,Yes,Yes,Yes,Credit card,false,false,false
+5,28,Two year,90.63,4266.57,None,Yes,No,No,No,Electronic check,false,true,true
+9,65,Two year,83.67,8900.98,Fiber optic,Yes,Yes,Yes,Yes,Electronic check,false,true,true
+7,60,One year,91.46,3916.43,Fiber optic,No,Yes,No,Yes,Electronic check,false,false,false
+10,35,One year,48.67,2380.36,DSL,Yes,Yes,No,No,Bank transfer,false,true,true
+8,65,One year,64.99,8583.38,DSL,No,Yes,Yes,Yes,Electronic check,false,false,false
+1,41,Two year,86.06,5107.95,DSL,No,No,Yes,No,Credit card,false,false,false
+1,9,One year,90.99,5339.47,Fiber optic,Yes,Yes,No,No,Electronic check,false,false,false
+1,70,Two year,81.92,4121.73,None,Yes,Yes,No,No,Mailed check,true,false,false
+8,26,Two year,48.15,1856.63,Fiber optic,Yes,Yes,Yes,No,Bank transfer,true,false,false
+7,15,One year,30.27,3841.04,None,Yes,No,Yes,No,Electronic check,true,true,true
+1,23,Two year,51.58,642.18,Fiber optic,Yes,No,No,Yes,Credit card,false,false,true
+3,67,Two year,68.52,3360.25,Fiber optic,Yes,Yes,No,No,Electronic check,true,false,false
+6,17,Month-to-month,51.03,4145.94,None,No,No,No,No,Credit card,true,true,false
+5,4,Two year,82.99,2028.66,DSL,No,Yes,No,Yes,Mailed check,true,true,false
+9,13,Month-to-month,50.77,3482.1,Fiber optic,No,No,No,Yes,Bank transfer,true,true,false
+3,49,One year,43.55,6423.23,None,No,Yes,No,No,Mailed check,true,false,false
+8,25,Month-to-month,42.1,7732.88,None,No,Yes,Yes,Yes,Credit card,false,false,false
+4,37,One year,48.44,866.81,DSL,No,No,Yes,Yes,Mailed check,false,false,false
+4,34,One year,47.15,7377.71,DSL,No,Yes,No,No,Bank transfer,false,true,true
+3,52,One year,55.77,8209.4,None,Yes,No,No,Yes,Bank transfer,false,false,true
+7,33,One year,93.78,4685.85,None,No,No,Yes,No,Bank transfer,false,false,true
+7,69,Two year,89.49,3580.48,Fiber optic,Yes,No,Yes,Yes,Electronic check,true,false,true
+7,35,Month-to-month,38.55,2473.64,Fiber optic,Yes,No,Yes,Yes,Electronic check,true,false,true
+8,12,Month-to-month,50.95,714.8,Fiber optic,Yes,No,Yes,Yes,Bank transfer,true,true,false
+6,38,Month-to-month,94.41,355.12,DSL,Yes,Yes,Yes,Yes,Mailed check,true,false,false
+2,47,Two year,35.94,3478.26,None,No,Yes,Yes,Yes,Electronic check,true,true,false
+10,46,Two year,89.46,6671.61,Fiber optic,Yes,Yes,No,No,Mailed check,false,false,true
+3,50,One year,67.86,4639.09,DSL,Yes,No,Yes,Yes,Mailed check,true,true,false
+3,17,One year,76.27,7647.15,DSL,No,Yes,Yes,No,Bank transfer,false,false,false
+8,5,One year,32.12,3435.33,None,Yes,No,Yes,Yes,Electronic check,true,true,true
+10,66,Two year,90.95,6479.63,None,Yes,No,Yes,Yes,Mailed check,true,true,true
+8,46,One year,29.96,8795.55,None,Yes,No,No,Yes,Electronic check,false,true,true
+2,47,Two year,37.37,7999.13,DSL,Yes,No,No,Yes,Electronic check,false,true,false
+7,25,Two year,48.07,4711.29,Fiber optic,No,No,Yes,Yes,Electronic check,true,false,true
+6,7,One year,54.43,5749.45,None,No,No,Yes,No,Mailed check,true,true,false
+10,10,One year,87.55,1285.61,DSL,No,No,Yes,Yes,Bank transfer,true,true,false
+4,57,Two year,50.71,3582.71,DSL,Yes,Yes,Yes,No,Bank transfer,true,false,false
+1,50,Two year,83.61,3116.65,None,No,Yes,Yes,Yes,Credit card,false,false,true
+4,29,Month-to-month,81.22,3243.07,Fiber optic,Yes,Yes,No,No,Bank transfer,false,false,true
+5,23,One year,30.22,4470.18,None,Yes,No,Yes,Yes,Credit card,true,true,false
+4,28,Month-to-month,42.09,2499.41,Fiber optic,Yes,No,Yes,No,Mailed check,true,true,false
+3,60,Month-to-month,99.29,3202.1,None,No,No,Yes,No,Electronic check,false,true,true
+2,31,One year,31.6,6179.13,None,No,Yes,Yes,Yes,Mailed check,true,false,true
+8,34,Month-to-month,49.93,6427.02,Fiber optic,No,No,No,Yes,Credit card,true,false,true
+9,34,Two year,55.44,5112.28,None,Yes,No,Yes,Yes,Credit card,true,false,true
+1,71,Month-to-month,83.65,3265.08,Fiber optic,No,Yes,Yes,Yes,Bank transfer,false,true,false
+3,38,Two year,40.06,4758.52,DSL,Yes,No,Yes,No,Electronic check,true,true,false
+2,62,One year,97.88,8334.89,DSL,No,No,Yes,Yes,Bank transfer,true,false,true
+9,18,One year,55.51,2519.55,DSL,Yes,Yes,Yes,No,Credit card,true,false,true
+9,56,Two year,35.7,6229.53,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,false,false,false
+6,43,Month-to-month,34.79,5241.18,None,No,Yes,No,Yes,Credit card,false,false,true
+5,7,Month-to-month,65.77,8881.69,None,Yes,Yes,Yes,No,Electronic check,true,true,true
+6,40,One year,51.89,7100.3,DSL,Yes,Yes,No,No,Credit card,true,false,false
+3,62,One year,65.26,1158.41,DSL,Yes,Yes,Yes,Yes,Bank transfer,false,false,true
+1,44,Two year,94.82,8508.41,DSL,Yes,Yes,Yes,No,Bank transfer,true,false,false
+3,46,Two year,43.65,3979.88,DSL,Yes,No,No,No,Bank transfer,true,true,true
+10,62,One year,51.21,7173.35,Fiber optic,No,No,No,No,Electronic check,true,true,false
+7,42,One year,44.92,4666.56,DSL,No,No,Yes,Yes,Credit card,true,true,true
+7,52,Two year,57.54,5670.78,DSL,No,No,Yes,No,Bank transfer,true,false,false
+7,9,One year,42.86,4167.58,None,No,Yes,Yes,No,Bank transfer,false,true,false
+10,21,Two year,48.78,6248.71,Fiber optic,No,Yes,Yes,No,Electronic check,false,false,true
+7,23,One year,35.01,3666.33,Fiber optic,No,No,Yes,Yes,Electronic check,false,true,true
+5,37,Two year,34.09,1658.9,Fiber optic,Yes,No,No,Yes,Electronic check,true,true,false
+6,68,Month-to-month,56.25,5313.77,None,No,No,No,No,Credit card,false,false,true
+1,38,Two year,47.72,8807.61,DSL,No,Yes,Yes,Yes,Credit card,false,true,false
+1,70,Month-to-month,30.24,1752.07,DSL,No,No,No,Yes,Credit card,false,false,false
+1,65,Month-to-month,42.67,6146.81,None,No,Yes,Yes,No,Bank transfer,true,true,false
+8,51,Month-to-month,85.52,2762.86,DSL,No,No,No,No,Bank transfer,false,false,false
+8,53,Month-to-month,37.55,6686.23,DSL,Yes,No,Yes,No,Bank transfer,true,true,true
+7,48,Two year,51.08,3930.88,None,No,No,No,Yes,Mailed check,false,false,false
+3,29,Month-to-month,47.39,3189.94,DSL,No,No,Yes,Yes,Credit card,false,false,true
+6,49,Two year,76.11,4207.33,None,Yes,Yes,No,No,Credit card,false,true,false
+4,14,Two year,31.17,2238.16,None,No,No,Yes,No,Bank transfer,true,true,false
+3,67,Month-to-month,65.83,2245.12,None,No,No,Yes,Yes,Electronic check,true,false,true
+8,33,Two year,92.14,3895.67,None,Yes,No,Yes,Yes,Bank transfer,true,true,true
+6,52,One year,68.74,2803.09,Fiber optic,No,Yes,Yes,Yes,Credit card,true,false,false
+1,45,Month-to-month,73.74,3929.24,DSL,No,No,No,No,Bank transfer,true,true,true
+10,62,Two year,62.57,4827.63,Fiber optic,No,No,No,Yes,Electronic check,false,false,false
+5,56,Two year,51.36,739.31,DSL,No,Yes,Yes,No,Credit card,false,false,false
+8,12,Month-to-month,54.74,7151.24,DSL,Yes,No,Yes,Yes,Mailed check,true,false,true
+2,10,Month-to-month,55.88,4701.35,DSL,No,Yes,Yes,No,Mailed check,true,false,true
+6,31,Two year,77.67,7397.28,Fiber optic,No,Yes,No,Yes,Mailed check,false,false,true
+5,14,One year,47.44,8821.21,None,Yes,No,Yes,Yes,Bank transfer,false,false,false
+6,5,Two year,89.96,5057.7,None,Yes,Yes,No,No,Bank transfer,false,true,false
+1,15,Two year,69.36,6332.54,Fiber optic,Yes,No,No,Yes,Mailed check,false,false,false
+2,50,Two year,74.76,604.89,None,No,Yes,No,Yes,Credit card,true,false,false
+5,41,One year,99.74,7042.65,None,Yes,No,Yes,No,Bank transfer,true,true,true
+5,23,Two year,55.16,921.67,Fiber optic,No,No,Yes,No,Credit card,false,true,true
+3,38,One year,91.24,2321.41,Fiber optic,No,Yes,No,Yes,Mailed check,false,true,false
+7,69,Two year,52.42,2806.09,DSL,Yes,Yes,No,Yes,Credit card,false,false,false
+8,46,Two year,69.35,2314.28,Fiber optic,Yes,No,Yes,No,Mailed check,false,false,false
+8,71,Two year,55.55,7526.76,Fiber optic,No,No,Yes,Yes,Credit card,true,true,false
+8,72,Two year,55.47,7299.92,Fiber optic,No,Yes,No,No,Credit card,true,true,true
+4,11,One year,69.15,4985.15,None,Yes,No,Yes,No,Credit card,false,false,false
+4,5,One year,72.45,3949.24,Fiber optic,No,No,No,No,Electronic check,false,false,true
+5,68,Month-to-month,54.93,1534.47,Fiber optic,Yes,Yes,Yes,Yes,Mailed check,false,true,true
+9,34,Two year,48.03,7742.74,None,No,Yes,Yes,Yes,Credit card,false,false,true
+8,41,One year,38.15,2678.69,None,No,No,No,No,Mailed check,true,false,false
+5,42,Two year,83.19,5595.78,DSL,No,Yes,Yes,Yes,Credit card,true,true,true
+1,48,Two year,46.48,6757.52,DSL,No,No,Yes,No,Bank transfer,false,false,true
+8,35,Month-to-month,92.22,574.22,None,Yes,Yes,No,No,Electronic check,false,false,true
+8,12,Month-to-month,70.78,2957.17,Fiber optic,Yes,Yes,Yes,Yes,Bank transfer,true,true,true
+6,3,Month-to-month,86.73,4524.6,Fiber optic,No,No,Yes,No,Electronic check,false,true,true
+10,37,One year,75.99,5112.15,None,No,Yes,Yes,No,Mailed check,true,false,false
+3,28,Month-to-month,82.84,1726.46,None,Yes,Yes,No,No,Bank transfer,false,false,false
+9,44,Two year,48.87,3821.42,DSL,No,No,Yes,Yes,Bank transfer,true,false,false
+1,53,One year,91.77,3841.06,Fiber optic,No,No,No,Yes,Mailed check,true,true,true
+3,55,One year,75.15,497.64,Fiber optic,No,No,No,No,Mailed check,true,true,true
+9,17,One year,69.88,2505.26,DSL,No,No,No,No,Mailed check,false,false,false
+3,70,Month-to-month,37.59,1832.24,DSL,Yes,No,No,Yes,Electronic check,false,false,true
+10,37,One year,30.95,5212.72,None,No,Yes,No,Yes,Credit card,true,false,false
+5,55,Month-to-month,99.42,4704.48,None,Yes,No,No,No,Mailed check,false,true,true
+7,23,Month-to-month,63.65,4855.61,None,No,No,Yes,Yes,Bank transfer,true,true,false
+9,44,Month-to-month,36.09,6839.01,Fiber optic,No,Yes,Yes,No,Credit card,false,true,true
+3,55,Month-to-month,71.73,2031.15,None,No,Yes,No,Yes,Electronic check,true,false,false
+9,12,Two year,96.55,6043.32,None,No,No,No,No,Bank transfer,true,true,false
+2,27,Two year,57.71,2060.74,Fiber optic,Yes,No,No,Yes,Mailed check,true,false,true
+2,59,Two year,71.13,1274.23,Fiber optic,No,Yes,No,No,Credit card,true,true,false
+1,32,One year,73.88,2667.28,Fiber optic,No,No,Yes,Yes,Mailed check,false,false,true
+9,52,Month-to-month,65.57,1138.26,DSL,Yes,Yes,Yes,No,Mailed check,true,true,true
+7,27,Month-to-month,85.63,3057.82,DSL,Yes,No,Yes,Yes,Electronic check,true,true,false
+10,20,One year,51.55,4099.55,None,No,Yes,No,Yes,Bank transfer,false,true,false
+8,72,Two year,75.91,6903.41,Fiber optic,Yes,Yes,Yes,No,Credit card,true,false,false
+7,62,Month-to-month,76.6,8770.09,Fiber optic,No,No,Yes,Yes,Mailed check,false,true,true

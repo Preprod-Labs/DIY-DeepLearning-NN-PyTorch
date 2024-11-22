@@ -1,0 +1,67 @@
+# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+    # Developer details: 
+        # Name: Akshat Rastogi, Shubh Gupta and Rupal Mishra
+        # Role: Developers
+        # Code ownership rights: PreProd Corp
+    # Version:
+        # Version: V 1.1 (19 October 2024)
+            # Developers: Akshat Rastogi, Shubh Gupta and Rupal Mishra
+            # Unit test: Pass
+            # Integration test: Pass
+     
+    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+        # MySQL: Yes
+        # MongoDB: Yes
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# Dependency: 
+    # Environment:     
+        # Python 3.10.11
+        # Streamlit 1.40.0
+
+
+import os  # Importing os to interact with the operating system (e.g., file and directory operations)
+import torch  # Importing PyTorch for tensor operations and model evaluation
+import joblib  # Importing joblib for loading saved models
+from sklearn.metrics import classification_report  # Importing classification_report for generating evaluation metrics
+
+def evaluate_model(model, X_test_tensor, y_test_tensor):
+    """Evaluate a model using the test tensors and return the accuracy."""
+    with torch.no_grad():  # Disable gradient calculation for evaluation to save memory and improve speed
+        
+        # Obtain predictions from the model
+        predictions = model(X_test_tensor)
+        
+        # Convert predictions to binary (0 or 1) based on a threshold of 0.5
+        predicted = (predictions.view(-1) > 0.5).float()
+        
+        # Calculate accuracy by comparing predicted and actual values
+        accuracy = (predicted == y_test_tensor).sum() / y_test_tensor.shape[0]
+        return f'{accuracy.item()}%'  # Return accuracy as a percentage
+
+def evaluate_(X_test_tensor, y_test_tensor):
+    """Evaluate all saved models in the specified directory and return their classification reports."""
+    saved_model_dir = 'code/saved_model/'  # Directory where the saved models are located
+    model_files = [f for f in os.listdir(saved_model_dir) if f.endswith('.pkl')]  # List of all model files ending with .pkl
+    reports = {}  # Dictionary to store classification reports for each model
+
+    for model_file in model_files:
+        model_path = os.path.join(saved_model_dir, model_file)  # Full path to the model file
+        model = joblib.load(model_path)  # Load the model using joblib
+        
+        # Ensure that the model can work with the input tensor
+        model.eval()  # Set the model to evaluation mode to disable dropout and batch normalization
+        with torch.no_grad():  # Disable gradient calculation during prediction
+            predictions = model(X_test_tensor)  # Get predictions for the test data
+            predicted = (predictions.view(-1) > 0.5).float()  # Convert predictions to binary
+
+        # Generate a classification report using sklearn's classification_report
+        report = classification_report(y_test_tensor, predicted)
+        reports[model_file] = report  # Store the report in the dictionary
+
+    return reports  # Return the dictionary containing classification reports for all models
+
+
+    
