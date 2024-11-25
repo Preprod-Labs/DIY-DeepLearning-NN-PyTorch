@@ -10,7 +10,7 @@
             # Unit test: Pass
             # Integration test: Pass
      
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This script implements and trains a Convolutional Neural Network (CNN) model for customer churn prediction.
         # MySQL: Yes
         # MongoDB: Yes
 
@@ -19,8 +19,13 @@
 # Dependency: 
     # Environment:     
         # Python 3.10.11
-        # Streamlit 1.40.0
+        # pandas 1.5.3
         # torch 2.5.0
+        # joblib 1.3.1
+        # pymongo 4.9.1
+        # mysql-connector-python 9.0.0
+        # scikit-learn 1.2.2
+        # numpy 1.24.3
 
 import pandas as pd  # For data manipulation and analysis
 import joblib  # For loading the trained model

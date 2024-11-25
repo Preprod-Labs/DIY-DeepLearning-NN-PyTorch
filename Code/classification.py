@@ -10,7 +10,7 @@
             # Unit test: Pass
             # Integration test: Pass
      
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This script handles the classification of customer data using trained neural network models.
         # MySQL: Yes
         # MongoDB: Yes
 
@@ -19,7 +19,9 @@
 # Dependency: 
     # Environment:     
         # Python 3.10.11
-        # Streamlit 1.40.0
+        # torch 2.5.0
+        # joblib 1.3.1
+        # pandas 1.5.3
 
 
 from ingest_transform import scale_test  # Import scale_test function for preprocessing input data

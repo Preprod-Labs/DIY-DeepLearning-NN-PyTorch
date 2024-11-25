@@ -10,7 +10,7 @@
             # Unit test: Pass
             # Integration test: Pass
      
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This script handles data ingestion, preprocessing, and MongoDB database operations for the churn prediction system.
         # MySQL: Yes
         # MongoDB: Yes
 
@@ -19,9 +19,8 @@
 # Dependency: 
     # Environment:     
         # Python 3.10.11
-        # Streamlit 1.40.0
-        # pymongo==4.9.1
-        # pandas==1.5.3
+        # pymongo 4.9.1
+        # pandas 1.5.3
 from pymongo import MongoClient  # Import MongoClient to interact with MongoDB
 import pandas as pd  # Pandas for handling CSV data
 

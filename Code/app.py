@@ -10,7 +10,7 @@
             # Unit test: Pass
             # Integration test: Pass
      
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This Streamlit web application provides a user interface for training, evaluating, and making predictions with various neural network models for customer churn prediction.
         # MySQL: Yes
         # MongoDB: Yes
 
@@ -19,7 +19,15 @@
 # Dependency: 
     # Environment:     
         # Python 3.10.11
-        # Streamlit 1.40.0
+        # streamlit 1.40.0
+        # pandas 1.5.3
+        # numpy 1.24.3
+        # torch 2.5.0
+        # pymongo 4.9.1
+        # mysql-connector-python 9.0.0
+        # python-dotenv 1.0.1
+        # scikit-learn 1.2.2
+        # joblib 1.3.1
 
 # Import necessary libraries and modules
 from classification import classify  # Import classification functions

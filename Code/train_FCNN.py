@@ -10,7 +10,7 @@
             # Unit test: Pass
             # Integration test: Pass
 
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This script implements and trains a Fully Connected Neural Network (FCNN) model for customer churn prediction.
         # MySQL: Yes
         # MongoDB: Yes
 

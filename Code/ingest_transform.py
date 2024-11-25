@@ -10,16 +10,18 @@
             # Unit test: Pass
             # Integration test: Pass
      
-    # Description: This Streamlit app allows users to input features and make predictions using Neural Network.
+    # Description: This script handles data ingestion, preprocessing, and MySQL database operations for the churn prediction system.
         # MySQL: Yes
         # MongoDB: Yes
-
-# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 # Dependency: 
     # Environment:     
         # Python 3.10.11
-        # Streamlit 1.40.0
+        # pandas 1.5.3
+        # torch 2.5.0
+        # mysql-connector-python 9.0.0
+        # scikit-learn 1.2.2
+        # numpy 1.24.3
 
 
 # db_connection.py

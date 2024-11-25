@@ -1,4 +1,4 @@
-# Deep Learning with PyTorch Prompts
+# DIY Deep Learning with PyTorch Prompts
 
 ## Introduction to Deep Learning
 
