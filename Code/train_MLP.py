@@ -35,6 +35,8 @@ from ingest_transform import preprocess_data # Custom functions for preprocessin
 from evaluate import evaluate_model  # Custom function to evaluate the model
 from ingest_transform_mongodb import store_model_to_mongodb
 from ingest_transform import store_model_to_mysql
+import os  # For handling file paths
+
 # Define a Multi-Layer Perceptron (MLP) neural network class
 class MLP(nn.Module):
     def __init__(self, input_size, num_layers):
@@ -84,7 +86,8 @@ class MLP(nn.Module):
         # Output layer with sigmoid activation
         x = self.sigmoid(self.output_layer(x))  # Get probabilities
         return x
-def train_evaluate_mlp(df, n_layers, epochs, db_choice):
+
+def train_evaluate_mlp(df, n_layers, epochs, db_choice, model_dir):
     """
     Trains the MLP model and evaluates its performance.
 
@@ -93,6 +96,7 @@ def train_evaluate_mlp(df, n_layers, epochs, db_choice):
     n_layers (int): Number of hidden layers in the MLP.
     epochs (int): Number of training epochs.
     db_choice (str): The selected database ('MongoDB' or 'MySQL').
+    model_dir (str): Directory to save the trained model.
 
     Returns:
     The result of the model evaluation on the test set.
@@ -126,14 +130,14 @@ def train_evaluate_mlp(df, n_layers, epochs, db_choice):
         if (epoch + 1) % 10 == 0:
             print(f'[MLP] Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
     
-    # Save the trained model
-    model_path = 'Code/saved_model/MLP.pkl'
-    joblib.dump(model, model_path)  # Save the model using joblib
+    # Save the trained model using the provided directory
+    model_path = os.path.join(model_dir, 'MLP.pkl')
+    joblib.dump(model, model_path)
     
     # Store model details in the database based on user's choice
     if db_choice == "MongoDB":
         store_model_to_mongodb(
-            model_name='MLP',  # Corrected the model name here
+            model_name='MLP',
             model_path=model_path,
             num_layers=n_layers,
             epochs=epochs,

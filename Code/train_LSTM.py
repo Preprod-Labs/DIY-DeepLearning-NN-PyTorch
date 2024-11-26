@@ -35,6 +35,8 @@ from ingest_transform import preprocess_data # Custom functions for preprocessin
 from evaluate import evaluate_model  # Custom function to evaluate the model
 from ingest_transform_mongodb import store_model_to_mongodb
 from ingest_transform import store_model_to_mysql
+import os
+
 # Define a Long Short-Term Memory (LSTM) neural network class
 class LSTM(nn.Module):
     def __init__(self, input_size, num_layers):
@@ -79,7 +81,8 @@ class LSTM(nn.Module):
         out = self.fc(out[:, -1, :])  # Get the output from the last time step
         out = self.sigmoid(out)  # Apply sigmoid to get probabilities
         return out
-def train_evaluate_lstm(df, n_layers, epochs, db_choice):
+
+def train_evaluate_lstm(df, n_layers, epochs, db_choice, model_dir):
     """
     Trains the LSTM model and evaluates its performance.
 
@@ -88,6 +91,7 @@ def train_evaluate_lstm(df, n_layers, epochs, db_choice):
     n_layers (int): Number of LSTM layers.
     epochs (int): Number of training epochs.
     db_choice (str): The selected database ('MongoDB' or 'MySQL').
+    model_dir (str): Directory to save the trained model.
 
     Returns:
     The result of the model evaluation on the test set.
@@ -121,8 +125,8 @@ def train_evaluate_lstm(df, n_layers, epochs, db_choice):
         if (epoch + 1) % 10 == 0:
             print(f'[LSTM] Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
     
-    # Save the trained model
-    model_path = 'Code/saved_model/LSTM.pkl'
+    # Save the trained model using the provided directory
+    model_path = os.path.join(model_dir, 'LSTM.pkl')
     joblib.dump(model, model_path)  # Save the model using joblib
     
     # Store model details in the database based on user's choice

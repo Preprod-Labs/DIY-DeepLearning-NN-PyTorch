@@ -36,6 +36,8 @@ from ingest_transform import preprocess_data  # Custom functions for preprocessi
 from evaluate import evaluate_model  # Custom function to evaluate the model
 from ingest_transform_mongodb import store_model_to_mongodb
 from ingest_transform import store_model_to_mysql
+import os  # For handling file paths
+
 # Define a Dynamic Recurrent Neural Network (RNN) class
 class DynamicRNN(nn.Module):
     def __init__(self, input_size, num_layers):
@@ -81,7 +83,7 @@ class DynamicRNN(nn.Module):
         out = self.sigmoid(out)  # Apply sigmoid to get probabilities
         return out
 
-def train_evaluate_rnn(df, n_layers, epochs, db_choice):
+def train_evaluate_rnn(df, n_layers, epochs, db_choice, model_dir):
     """
     Trains the Dynamic RNN model and evaluates its performance.
 
@@ -90,6 +92,7 @@ def train_evaluate_rnn(df, n_layers, epochs, db_choice):
     n_layers (int): Number of RNN layers in the model.
     epochs (int): Number of training epochs.
     db_choice (str): The selected database ('MongoDB' or 'MySQL').
+    model_dir (str): Directory to save the trained model.
 
     Returns:
     The result of the model evaluation on the test set.
@@ -123,14 +126,14 @@ def train_evaluate_rnn(df, n_layers, epochs, db_choice):
         if (epoch + 1) % 10 == 0:
             print(f'[RNN] Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
     
-    # Save the trained model
-    model_path = 'Code/saved_model/RNN.pkl'
-    joblib.dump(model, model_path)  # Save the model using joblib
+    # Save the trained model using the provided directory
+    model_path = os.path.join(model_dir, 'RNN.pkl')
+    joblib.dump(model, model_path)
     
     # Store model details in the database based on user's choice
     if db_choice == "MongoDB":
         store_model_to_mongodb(
-            model_name='RNN',  # Corrected the model name here
+            model_name='RNN',
             model_path=model_path,
             num_layers=n_layers,
             epochs=epochs,

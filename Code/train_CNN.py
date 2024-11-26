@@ -35,6 +35,8 @@ from ingest_transform import preprocess_data # Custom functions for data preproc
 from evaluate import evaluate_model  # Custom function to evaluate the model
 from ingest_transform_mongodb import store_model_to_mongodb
 from ingest_transform import store_model_to_mysql
+import os  # For handling file paths
+
 # Define a Convolutional Neural Network (CNN) class
 class CNN(nn.Module):
     def __init__(self, input_size, num_layers):
@@ -100,7 +102,7 @@ class CNN(nn.Module):
         return x  # Return the output
 
 # Function to train and evaluate the CNN model
-def train_evaluate_cnn(df, n_layers, epochs, db_choice):
+def train_evaluate_cnn(df, n_layers, epochs, db_choice, model_dir):
     """
     Trains and evaluates the CNN model.
 
@@ -109,6 +111,7 @@ def train_evaluate_cnn(df, n_layers, epochs, db_choice):
     n_layers (int): The number of convolutional layers.
     epochs (int): The number of training epochs.
     db_choice (str): The selected database ('MongoDB' or 'MySQL').
+    model_dir (str): The directory to save the trained model.
 
     Returns:
     The result of the evaluation.
@@ -142,9 +145,9 @@ def train_evaluate_cnn(df, n_layers, epochs, db_choice):
         if (epoch + 1) % 10 == 0:
             print(f'[CNN] Epoch [{epoch + 1}/{epochs}], Loss: {loss.item():.4f}')
     
-    # Save the trained model
-    model_path = 'Code/saved_model/CNN.pkl'
-    joblib.dump(model, model_path)  # Save model using joblib
+    # Save the trained model using the provided directory
+    model_path = os.path.join(model_dir, 'CNN.pkl')
+    joblib.dump(model, model_path)
     
     # Store model details in the database based on user's choice
     if db_choice == "MongoDB":

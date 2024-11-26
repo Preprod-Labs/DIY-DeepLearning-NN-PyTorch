@@ -44,25 +44,25 @@ def evaluate_model(model, X_test_tensor, y_test_tensor):
         accuracy = (predicted == y_test_tensor).sum() / y_test_tensor.shape[0]
         return f'{accuracy.item()}%'  # Return accuracy as a percentage
 
-def evaluate_(X_test_tensor, y_test_tensor):
+def evaluate_(X_test_tensor, y_test_tensor, model_dir):
     """Evaluate all saved models in the specified directory and return their classification reports."""
-    saved_model_dir = 'code/saved_model/'  # Directory where the saved models are located
-    model_files = [f for f in os.listdir(saved_model_dir) if f.endswith('.pkl')]  # List of all model files ending with .pkl
-    reports = {}  # Dictionary to store classification reports for each model
+    model_files = [f for f in os.listdir(model_dir) if f.endswith('.pkl')]
+    reports = {}
 
     for model_file in model_files:
-        model_path = os.path.join(saved_model_dir, model_file)  # Full path to the model file
-        model = joblib.load(model_path)  # Load the model using joblib
-        
-        # Ensure that the model can work with the input tensor
-        model.eval()  # Set the model to evaluation mode to disable dropout and batch normalization
-        with torch.no_grad():  # Disable gradient calculation during prediction
-            predictions = model(X_test_tensor)  # Get predictions for the test data
-            predicted = (predictions.view(-1) > 0.5).float()  # Convert predictions to binary
+        model_path = os.path.join(model_dir, model_file)
+        try:
+            model = joblib.load(model_path)
+            model.eval()  # Set the model to evaluation mode to disable dropout and batch normalization
+            with torch.no_grad():  # Disable gradient calculation during prediction
+                predictions = model(X_test_tensor)  # Get predictions for the test data
+                predicted = (predictions.view(-1) > 0.5).float()  # Convert predictions to binary
 
-        # Generate a classification report using sklearn's classification_report
-        report = classification_report(y_test_tensor, predicted)
-        reports[model_file] = report  # Store the report in the dictionary
+            # Generate a classification report using sklearn's classification_report
+            report = classification_report(y_test_tensor, predicted)
+            reports[model_file] = report  # Store the report in the dictionary
+        except Exception as e:
+            reports[model_file] = f"Error loading model: {str(e)}"
 
     return reports  # Return the dictionary containing classification reports for all models
 

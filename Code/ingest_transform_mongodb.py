@@ -78,7 +78,7 @@ def retrieve_path_from_mongodb():
 
         client.close()  # Close the connection
 
-        if latest_record:
+        if (latest_record):
             csv_path = latest_record["master_data_path"]
             try:
                 # Load the CSV using pandas
@@ -132,3 +132,46 @@ def store_model_to_mongodb(model_name, model_path, num_layers, epochs):
         return f"Error storing model details to MongoDB: {e}"
     finally:
         client.close()  # Ensure the client connection is closed
+
+def store_data_to_mongodb(df):
+    """
+    Stores the entire DataFrame in MongoDB.
+    """
+    try:
+        client = get_mongo_client()
+        db = client["telecom_db"]
+        collection = db["customer_data"]
+
+        # Convert DataFrame to dictionary records
+        records = df.to_dict('records')
+
+        # Insert data
+        collection.delete_many({})  # Clear existing data
+        collection.insert_many(records)
+        
+        client.close()
+        return "Data stored successfully in MongoDB."
+    except Exception as e:
+        return f"Error storing data to MongoDB: {e}"
+
+def retrieve_data_from_mongodb():
+    """
+    Retrieves the entire dataset from MongoDB.
+    """
+    try:
+        client = get_mongo_client()
+        db = client["telecom_db"]
+        collection = db["customer_data"]
+
+        # Retrieve all documents
+        data = list(collection.find({}, {'_id': 0}))
+        
+        client.close()
+        
+        if data:
+            df = pd.DataFrame(data)
+            return df
+        return None
+    except Exception as e:
+        print(f"Error retrieving data from MongoDB: {e}")
+        return None

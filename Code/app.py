@@ -36,14 +36,14 @@ import numpy as np  # Import NumPy for numerical operations
 import pandas as pd  # Import Pandas for data manipulation
 import streamlit as st  # Import Streamlit for creating the web app
 from dotenv import load_dotenv  # Import for loading environment variables from a .env file
-from train_FCNN import train_model as train  # Import training function for Fully Connected Neural Network (FCNN)
+from train_FCNN import train_model as train_fcnn  # Import training function for Fully Connected Neural Network (FCNN)
 from train_CNN import train_evaluate_cnn as train_cnn  # Import training and evaluation function for Convolutional Neural Network (CNN)
 from train_RNN import train_evaluate_rnn as train_rnn  # Import training and evaluation function for Recurrent Neural Network (RNN)
 from train_LSTM import train_evaluate_lstm as train_lstm  # Import training and evaluation function for Long Short-Term Memory (LSTM)
 from train_MLP import train_evaluate_mlp as train_mlp  # Import training and evaluation function for Multi-Layer Perceptron (MLP)
-from ingest_transform_mongodb import store_path_to_mongodb, retrieve_path_from_mongodb  # Import MongoDB functions
-from ingest_transform import delabel, preprocess_data, scale_test, store_path_to_mysql, retrieve_path_from_mysql
-
+from ingest_transform_mongodb import  store_data_to_mongodb, retrieve_data_from_mongodb  # Import MongoDB functions
+from ingest_transform import delabel, preprocess_data, scale_test, store_data_to_mysql, retrieve_data_from_mysql
+import os
 # Configure Streamlit page settings
 st.set_page_config(page_title="Customer Churn Prediction", page_icon=":cash:", layout="centered")
 
@@ -62,7 +62,21 @@ with tab1:
     db_choice = st.selectbox("Select Database", ["MongoDB", "MySQL"])
 
     # Input field for the user to enter the file path of the master data
-    uploaded_file = st.text_input("Enter the path to the Master data")
+    default_path = "Data\\Master\\telecom_customer_data.csv"
+    uploaded_file = st.text_input("Enter the path to the Master data", value=default_path)
+
+    # Add model save directory input
+    default_model_dir = "Code/saved_model"
+    model_save_dir = st.text_input("Enter the directory path to save models", value=default_model_dir)
+    
+    if model_save_dir:
+        try:
+            # Create directory if it doesn't exist
+            os.makedirs(model_save_dir, exist_ok=True)
+            st.session_state['model_save_dir'] = model_save_dir
+            st.success(f"Model save directory set to: {model_save_dir}")
+        except Exception as e:
+            st.error(f"Error creating directory: {e}")
 
     # Check if the user has provided a file path
     if uploaded_file:
@@ -84,9 +98,9 @@ with tab1:
 
                 # Call the appropriate function to store the uploaded file path based on user's choice
                 if db_choice == "MongoDB":
-                    message = store_path_to_mongodb(uploaded_file)
+                    message = store_data_to_mongodb(df)
                 else:  # MySQL
-                    message = store_path_to_mysql(uploaded_file)  # Use appropriate MySQL function
+                    message = store_data_to_mysql(df)  # Use appropriate MySQL function
                 
                 # Display a success message indicating the path was stored successfully
                 st.success(message)
@@ -109,9 +123,9 @@ with tab2:
 
     # Retrieve data from the selected database
     if db_choice == "MongoDB":
-        df = retrieve_path_from_mongodb()  # Assuming this function retrieves data from MongoDB
+        df = retrieve_data_from_mongodb()  # Assuming this function retrieves data from MongoDB
     else:  # MySQL
-        df = retrieve_path_from_mysql()  # Use appropriate MySQL function
+        df = retrieve_data_from_mysql()  # Use appropriate MySQL function
         print(type(df))
     # Continue processing the retrieved data as necessary
 
@@ -119,7 +133,7 @@ with tab2:
     # Check if data was loaded successfully from the database
     if df is None or df.empty:
         # If no data was found or unable to load data, show an error message to the user
-        st.error("No data found or unable to load the data. Please check the file path or database.")
+        st.error("No data found in the database. Please upload data first.")
     else:
         # Start model training for Fully Connected Neural Network (FCNN)
         model_name = 'FCNN'
@@ -135,7 +149,7 @@ with tab2:
             with st.spinner(f"Training {model_name} Model..."):  # Show a spinner while training
                 try:
                     # Call the training function for FCNN and capture the score
-                    score = train(df, num_layers, epochs, db_choice)
+                    score = train_fcnn(df, num_layers, epochs, db_choice, st.session_state.model_save_dir)
                     # Display a success message upon successful training
                     st.success(f"{model_name} Trained Successfully!")
 
@@ -162,7 +176,7 @@ with tab2:
             with st.spinner(f"Training {model_name} Model..."):  # Show a spinner during training
                 try:
                     # Call the training function for CNN and capture the score
-                    score = train_cnn(df, num_layers, epochs, db_choice)
+                    score = train_cnn(df, num_layers, epochs, db_choice, st.session_state.model_save_dir)
                     # Display a success message upon successful training
                     st.success(f"{model_name} Trained Successfully!")
 
@@ -189,7 +203,7 @@ with tab2:
             with st.spinner(f"Training {model_name} Model..."):  # Show a spinner during training
                 try:
                     # Call the training function for RNN and capture the score
-                    score = train_rnn(df, num_layers, epochs, db_choice)
+                    score = train_rnn(df, num_layers, epochs, db_choice, st.session_state.model_save_dir)
                     # Display a success message upon successful training
                     st.success(f"{model_name} Trained Successfully!")
 
@@ -216,7 +230,7 @@ with tab2:
             with st.spinner(f"Training {model_name} Model..."):  # Show a spinner during training
                 try:
                     # Call the training function for LSTM and capture the score
-                    score = train_lstm(df, num_layers, epochs, db_choice)
+                    score = train_lstm(df, num_layers, epochs, db_choice, st.session_state.model_save_dir)
                     # Display a success message upon successful training
                     st.success(f"{model_name} Trained Successfully!")
 
@@ -243,7 +257,7 @@ with tab2:
             with st.spinner(f"Training {model_name} Model..."):  # Show a spinner during training
                 try:
                     # Call the training function for MLP and capture the score
-                    score = train_mlp(df, num_layers, epochs, db_choice)
+                    score = train_mlp(df, num_layers, epochs, db_choice, st.session_state.model_save_dir)
                     # Display a success message upon successful training
                     st.success(f"{model_name} Trained Successfully!")
 
@@ -255,33 +269,52 @@ with tab2:
                     # If an error occurs during training, show an error message
                     st.error(f"An error occurred during training: {e}")
 
-with tab3:  # Create a new tab for model evaluation
-    st.subheader("Model Evaluation")  # Set a subheader for the evaluation section
-    st.write("This is where you can see the current metrics of the latest saved model.")  # Description for the user
-    st.divider()  # Add a visual divider for better layout
+with tab3:
+    st.subheader("Model Evaluation")
+    st.write("This is where you can see the current metrics of the latest saved model.")
+    st.divider()
     
-    # Preprocess the data to create tensors for training and testing
-    X_train_tensor, X_test_tensor, y_train_tensor, y_test_tensor = preprocess_data(df)
-
-    # List of model filenames to evaluate
-    model_list = ['CNN.pkl', 'FCNN.pkl', 'LSTM.pkl', 'MLP.pkl', 'RNN.pkl']
+    # Retrieve and check data before preprocessing
+    if db_choice == "MongoDB":
+        df = retrieve_data_from_mongodb()
+    else:
+        df = retrieve_data_from_mysql()
     
-    # Loop through each model in the model list
-    for i in model_list:
-        # Display the model name in a centered white text header
-        st.markdown(f"<h3 style='text-align: center; color: white;'>{i}</h3>", unsafe_allow_html=True)
-        
+    if df is None or df.empty:
+        st.error("No data available in the database. Please upload data first.")
+    else:
         try:
-            # Evaluate the model and retrieve the evaluation metrics using the test tensors
-            cf = evaluate_(X_test_tensor, y_test_tensor)[i]  # Assume evaluate_ returns a dictionary of metrics
-            
-            # Display the evaluation metrics
-            st.text(cf)
-            st.divider()  # Add a visual divider after displaying metrics for each model
-        
-        except KeyError:  # Catch a KeyError if the model is not found in the evaluation results
-            # Show an error message if the model hasn't been run yet
-            st.error("Please Run the Model First")
+            # Preprocess the data to create tensors for training and testing
+            X_train_tensor, X_test_tensor, y_train_tensor, y_test_tensor = preprocess_data(df)
+
+            # List of model filenames to evaluate
+            model_list = ['CNN.pkl', 'FCNN.pkl', 'LSTM.pkl', 'MLP.pkl', 'RNN.pkl']
+
+            # Loop through each model in the model list
+            for model_name in model_list:
+                # Display the model name in a centered white text header
+                st.markdown(f"<h3 style='text-align: center; color: white;'>{model_name[:-4]} Model Evaluation</h3>", 
+                            unsafe_allow_html=True)
+                
+                try:
+                    # Get evaluation metrics for the current model
+                    metrics = evaluate_(X_test_tensor, y_test_tensor, st.session_state.model_save_dir)
+                    
+                    if model_name in metrics:
+                        # Display the classification report in a formatted way
+                        st.code(metrics[model_name], language='text')
+                    else:
+                        st.warning(f"No evaluation metrics found for {model_name[:-4]}. Please train the model first.")
+                
+                except Exception as e:
+                    st.error(f"Error evaluating {model_name[:-4]}: {str(e)}")
+                
+                st.divider()
+
+        except Exception as e:
+            st.error(f"Error during data preprocessing: {str(e)}")
+            st.info("Please ensure your data is properly formatted and try again.")
+
 with tab4:  # Create a new tab for model prediction
     # Dropdown to select the classification algorithm
     algorithm = st.selectbox("Select algorithm:", ("FCNN", "CNN", "RNN", "MLP", "LSTM"))
@@ -333,7 +366,7 @@ with tab4:  # Create a new tab for model prediction
             X_test_tensor = scale_test(items)
             
             # Classify the input data using the selected algorithm
-            classification = classify(algorithm, X_test_tensor)
+            classification = classify(algorithm, X_test_tensor, st.session_state.model_save_dir)
 
             # Display the result of the classification
             st.write(f"The Result is {'Churn' if classification == 1.0 else 'No Churn'}")
